@@ -1,0 +1,28 @@
+package com.distriqt.extension.adverts.functions.rewarded;
+
+import com.adobe.fre.FREContext;
+import com.adobe.fre.FREFunction;
+import com.adobe.fre.FREObject;
+import com.distriqt.extension.adverts.AdvertsContext;
+import com.distriqt.extension.adverts.controller.RewardedVideoAd;
+import com.distriqt.extension.adverts.utils.Errors;
+/* loaded from: classes.dex */
+public class IsLoadedFunction implements FREFunction {
+    @Override // com.adobe.fre.FREFunction
+    public FREObject call(FREContext fREContext, FREObject[] fREObjectArr) {
+        try {
+            AdvertsContext advertsContext = (AdvertsContext) fREContext;
+            boolean z = false;
+            if (advertsContext.v) {
+                RewardedVideoAd rewardedVideoAd = advertsContext.controller().platform().getRewardedVideoAd(fREObjectArr[0].getAsString());
+                if (rewardedVideoAd != null) {
+                    z = rewardedVideoAd.isLoaded();
+                }
+            }
+            return FREObject.newObject(z);
+        } catch (Exception e) {
+            Errors.handleException(fREContext, e);
+            return null;
+        }
+    }
+}

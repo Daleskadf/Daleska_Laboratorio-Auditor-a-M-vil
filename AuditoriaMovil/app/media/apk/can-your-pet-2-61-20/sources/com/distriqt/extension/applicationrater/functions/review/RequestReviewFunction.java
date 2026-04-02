@@ -1,0 +1,21 @@
+package com.distriqt.extension.applicationrater.functions.review;
+
+import com.adobe.fre.FREContext;
+import com.adobe.fre.FREFunction;
+import com.adobe.fre.FREObject;
+import com.adobe.fre.FREWrongThreadException;
+import com.distriqt.extension.applicationrater.ApplicationRaterContext;
+import com.distriqt.extension.applicationrater.controller.ReviewControllerSupport;
+import com.distriqt.extension.applicationrater.utils.Errors;
+/* loaded from: classes.dex */
+public class RequestReviewFunction implements FREFunction {
+    @Override // com.adobe.fre.FREFunction
+    public FREObject call(FREContext fREContext, FREObject[] fREObjectArr) {
+        try {
+            return FREObject.newObject(ReviewControllerSupport.isSupported(fREContext.getActivity()) ? ((ApplicationRaterContext) fREContext).controller().reviewController().requestReview() : false);
+        } catch (FREWrongThreadException e) {
+            Errors.handleException(fREContext, e);
+            return null;
+        }
+    }
+}

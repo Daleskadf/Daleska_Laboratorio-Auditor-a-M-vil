@@ -1,0 +1,57 @@
+package com.adobe.air.microphone;
+/* loaded from: classes.dex */
+public class AIRMicrophone {
+    public static boolean m_isEnhanced = false;
+    private AIRMicrophoneRecorder m_airRecorder;
+    private Thread m_thread;
+    private int m_audioSource = 0;
+    private int m_sampleRate = 0;
+    private int m_channelConfiguration = 0;
+    private int m_audioFormat = 0;
+    private int m_bufferSize = 0;
+    private boolean m_useEnhancedMic = false;
+
+    public boolean Open(int i, int i2, int i3, int i4) {
+        this.m_audioSource = 1;
+        this.m_sampleRate = i;
+        if (i3 != 8) {
+            if (i3 == 16) {
+                this.m_audioFormat = 2;
+            }
+            return false;
+        }
+        this.m_audioFormat = 3;
+        if (i2 != 1) {
+            if (i2 == 2) {
+                this.m_channelConfiguration = 12;
+            }
+            return false;
+        }
+        this.m_channelConfiguration = 16;
+        this.m_bufferSize = i4;
+        AIRMicrophoneRecorder aIRMicrophoneRecorder = new AIRMicrophoneRecorder(this.m_audioSource, this.m_sampleRate, this.m_channelConfiguration, this.m_audioFormat, this.m_bufferSize);
+        this.m_airRecorder = aIRMicrophoneRecorder;
+        aIRMicrophoneRecorder.setIsEnhanced(this.m_useEnhancedMic);
+        Thread thread = new Thread(this.m_airRecorder);
+        this.m_thread = thread;
+        thread.start();
+        if (this.m_airRecorder.Open().booleanValue()) {
+            this.m_airRecorder.setRecording(true);
+            return true;
+        }
+        return false;
+    }
+
+    public void Close() {
+        this.m_airRecorder.setRecording(false);
+    }
+
+    public byte[] GetNextBuffer() {
+        return this.m_airRecorder.getBuffer();
+    }
+
+    public void setEnhanced(boolean z) {
+        this.m_useEnhancedMic = z;
+        m_isEnhanced = z;
+    }
+}

@@ -1,0 +1,1106 @@
+2026/04/01 20:42:44 [notice] 1#1: using the "epoll" event method
+2026/04/01 20:42:44 [notice] 1#1: nginx/1.24.0
+2026/04/01 20:42:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/01 20:42:44 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2
+2026/04/01 20:42:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/01 20:42:44 [notice] 1#1: start worker processes
+2026/04/01 20:42:44 [notice] 1#1: start worker process 29
+2026/04/01 20:42:44 [notice] 1#1: start worker process 30
+2026/04/01 20:42:44 [notice] 1#1: start worker process 31
+2026/04/01 20:42:44 [notice] 1#1: start worker process 32
+2026/04/01 20:42:44 [notice] 1#1: start worker process 33
+2026/04/01 20:42:44 [notice] 1#1: start worker process 34
+2026/04/01 20:42:44 [notice] 1#1: start worker process 35
+2026/04/01 20:42:44 [notice] 1#1: start worker process 36
+2026/04/01 20:42:44 [notice] 1#1: start worker process 37
+2026/04/01 20:42:44 [notice] 1#1: start worker process 38
+2026/04/01 20:42:44 [notice] 1#1: start worker process 39
+2026/04/01 20:42:44 [notice] 1#1: start worker process 40
+2026/04/01 20:42:44 [notice] 1#1: start worker process 41
+2026/04/01 20:42:44 [notice] 1#1: start worker process 42
+2026/04/01 20:42:44 [notice] 1#1: start worker process 43
+2026/04/01 20:42:44 [notice] 1#1: start worker process 44
+2026/04/01 20:42:44 [notice] 1#1: start worker process 45
+2026/04/01 20:42:44 [notice] 1#1: start worker process 46
+2026/04/01 20:42:44 [notice] 1#1: start worker process 47
+2026/04/01 20:42:44 [notice] 1#1: start worker process 48
+2026/04/01 20:45:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/01 20:45:19 [notice] 29#29: gracefully shutting down
+2026/04/01 20:45:19 [notice] 30#30: gracefully shutting down
+2026/04/01 20:45:19 [notice] 31#31: gracefully shutting down
+2026/04/01 20:45:19 [notice] 33#33: gracefully shutting down
+2026/04/01 20:45:19 [notice] 32#32: gracefully shutting down
+2026/04/01 20:45:19 [notice] 34#34: gracefully shutting down
+2026/04/01 20:45:19 [notice] 36#36: gracefully shutting down
+2026/04/01 20:45:19 [notice] 35#35: gracefully shutting down
+2026/04/01 20:45:19 [notice] 35#35: exiting
+2026/04/01 20:45:19 [notice] 35#35: exit
+2026/04/01 20:45:19 [notice] 41#41: gracefully shutting down
+2026/04/01 20:45:19 [notice] 43#43: gracefully shutting down
+2026/04/01 20:45:19 [notice] 43#43: exiting
+2026/04/01 20:45:19 [notice] 44#44: gracefully shutting down
+2026/04/01 20:45:19 [notice] 44#44: exiting
+2026/04/01 20:45:19 [notice] 37#37: gracefully shutting down
+2026/04/01 20:45:19 [notice] 39#39: gracefully shutting down
+2026/04/01 20:45:19 [notice] 45#45: gracefully shutting down
+2026/04/01 20:45:19 [notice] 42#42: gracefully shutting down
+2026/04/01 20:45:19 [notice] 40#40: gracefully shutting down
+2026/04/01 20:45:19 [notice] 46#46: gracefully shutting down
+2026/04/01 20:45:19 [notice] 38#38: gracefully shutting down
+2026/04/01 20:45:19 [notice] 48#48: gracefully shutting down
+2026/04/01 20:45:19 [notice] 47#47: gracefully shutting down
+2026/04/01 20:45:19 [notice] 29#29: exiting
+2026/04/01 20:45:19 [notice] 30#30: exiting
+2026/04/01 20:45:19 [notice] 31#31: exiting
+2026/04/01 20:45:19 [notice] 33#33: exiting
+2026/04/01 20:45:19 [notice] 32#32: exiting
+2026/04/01 20:45:19 [notice] 34#34: exiting
+2026/04/01 20:45:19 [notice] 36#36: exiting
+2026/04/01 20:45:19 [notice] 41#41: exiting
+2026/04/01 20:45:19 [notice] 43#43: exit
+2026/04/01 20:45:19 [notice] 44#44: exit
+2026/04/01 20:45:19 [notice] 37#37: exiting
+2026/04/01 20:45:19 [notice] 39#39: exiting
+2026/04/01 20:45:19 [notice] 45#45: exiting
+2026/04/01 20:45:19 [notice] 42#42: exiting
+2026/04/01 20:45:19 [notice] 40#40: exiting
+2026/04/01 20:45:19 [notice] 46#46: exiting
+2026/04/01 20:45:19 [notice] 38#38: exiting
+2026/04/01 20:45:19 [notice] 48#48: exiting
+2026/04/01 20:45:19 [notice] 47#47: exiting
+2026/04/01 20:45:19 [notice] 29#29: exit
+2026/04/01 20:45:19 [notice] 30#30: exit
+2026/04/01 20:45:19 [notice] 31#31: exit
+2026/04/01 20:45:19 [notice] 33#33: exit
+2026/04/01 20:45:19 [notice] 32#32: exit
+2026/04/01 20:45:19 [notice] 34#34: exit
+2026/04/01 20:45:19 [notice] 36#36: exit
+2026/04/01 20:45:19 [notice] 41#41: exit
+2026/04/01 20:45:19 [notice] 37#37: exit
+2026/04/01 20:45:19 [notice] 39#39: exit
+2026/04/01 20:45:19 [notice] 45#45: exit
+2026/04/01 20:45:19 [notice] 42#42: exit
+2026/04/01 20:45:19 [notice] 40#40: exit
+2026/04/01 20:45:19 [notice] 46#46: exit
+2026/04/01 20:45:19 [notice] 38#38: exit
+2026/04/01 20:45:19 [notice] 48#48: exit
+2026/04/01 20:45:19 [notice] 47#47: exit
+2026/04/01 20:45:19 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2026/04/01 20:45:19 [notice] 1#1: worker process 35 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/01 20:45:19 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2026/04/01 20:45:19 [notice] 1#1: worker process 43 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 44 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/01 20:45:19 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2026/04/01 20:45:19 [notice] 1#1: worker process 34 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 37 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 42 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 38 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 29 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 31 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 39 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 40 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 41 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 45 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 46 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 47 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 48 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/01 20:45:19 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2026/04/01 20:45:19 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2026/04/01 20:45:19 [notice] 1#1: worker process 30 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 32 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 33 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: worker process 36 exited with code 0
+2026/04/01 20:45:19 [notice] 1#1: exit
+2026/04/01 20:45:20 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:45:20 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:45:21 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:45:21 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:45:22 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:45:24 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:45:27 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:45:34 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:45:47 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:46:13 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:47:04 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:48:05 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:49:05 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:50:05 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:51:05 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:52:06 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:53:06 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:54:06 [emerg] 1#1: cannot load certificate "/etc/nginx/ssl/nginx.crt": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/ssl/nginx.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2026/04/01 20:55:44 [notice] 1#1: using the "epoll" event method
+2026/04/01 20:55:44 [notice] 1#1: nginx/1.24.0
+2026/04/01 20:55:44 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/01 20:55:44 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2
+2026/04/01 20:55:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/01 20:55:44 [notice] 1#1: start worker processes
+2026/04/01 20:55:44 [notice] 1#1: start worker process 29
+2026/04/01 20:55:44 [notice] 1#1: start worker process 30
+2026/04/01 20:55:44 [notice] 1#1: start worker process 31
+2026/04/01 20:55:44 [notice] 1#1: start worker process 32
+2026/04/01 20:55:44 [notice] 1#1: start worker process 33
+2026/04/01 20:55:44 [notice] 1#1: start worker process 34
+2026/04/01 20:55:44 [notice] 1#1: start worker process 35
+2026/04/01 20:55:44 [notice] 1#1: start worker process 36
+2026/04/01 20:55:44 [notice] 1#1: start worker process 37
+2026/04/01 20:55:44 [notice] 1#1: start worker process 38
+2026/04/01 20:55:44 [notice] 1#1: start worker process 39
+2026/04/01 20:55:44 [notice] 1#1: start worker process 40
+2026/04/01 20:55:44 [notice] 1#1: start worker process 41
+2026/04/01 20:55:44 [notice] 1#1: start worker process 42
+2026/04/01 20:55:44 [notice] 1#1: start worker process 43
+2026/04/01 20:55:44 [notice] 1#1: start worker process 44
+2026/04/01 20:55:44 [notice] 1#1: start worker process 45
+2026/04/01 20:55:44 [notice] 1#1: start worker process 46
+2026/04/01 20:55:44 [notice] 1#1: start worker process 47
+2026/04/01 20:55:44 [notice] 1#1: start worker process 48
+2026/04/01 20:55:46 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/01 20:55:46 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.3:8000/favicon.ico", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/01 20:55:46 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/01 20:55:46 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.3:8000/favicon.ico", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/01 20:55:47 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/01 20:55:47 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.3:8000/favicon.ico", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/01 20:55:47 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/01 20:55:48 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.3:8000/favicon.ico", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/01 21:40:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/01 21:40:54 [notice] 30#30: gracefully shutting down
+2026/04/01 21:40:54 [notice] 32#32: gracefully shutting down
+2026/04/01 21:40:54 [notice] 29#29: gracefully shutting down
+2026/04/01 21:40:54 [notice] 31#31: gracefully shutting down
+2026/04/01 21:40:54 [notice] 30#30: exiting
+2026/04/01 21:40:54 [notice] 35#35: gracefully shutting down
+2026/04/01 21:40:54 [notice] 33#33: gracefully shutting down
+2026/04/01 21:40:54 [notice] 31#31: exiting
+2026/04/01 21:40:54 [notice] 34#34: gracefully shutting down
+2026/04/01 21:40:54 [notice] 37#37: gracefully shutting down
+2026/04/01 21:40:54 [notice] 36#36: gracefully shutting down
+2026/04/01 21:40:54 [notice] 32#32: exiting
+2026/04/01 21:40:54 [notice] 40#40: gracefully shutting down
+2026/04/01 21:40:54 [notice] 38#38: gracefully shutting down
+2026/04/01 21:40:54 [notice] 44#44: gracefully shutting down
+2026/04/01 21:40:54 [notice] 36#36: exiting
+2026/04/01 21:40:54 [notice] 46#46: gracefully shutting down
+2026/04/01 21:40:54 [notice] 47#47: gracefully shutting down
+2026/04/01 21:40:54 [notice] 48#48: gracefully shutting down
+2026/04/01 21:40:54 [notice] 45#45: gracefully shutting down
+2026/04/01 21:40:54 [notice] 43#43: gracefully shutting down
+2026/04/01 21:40:54 [notice] 41#41: gracefully shutting down
+2026/04/01 21:40:54 [notice] 39#39: gracefully shutting down
+2026/04/01 21:40:54 [notice] 42#42: gracefully shutting down
+2026/04/01 21:40:54 [notice] 30#30: exit
+2026/04/01 21:40:54 [notice] 33#33: exiting
+2026/04/01 21:40:54 [notice] 35#35: exiting
+2026/04/01 21:40:54 [notice] 31#31: exit
+2026/04/01 21:40:54 [notice] 34#34: exiting
+2026/04/01 21:40:54 [notice] 32#32: exit
+2026/04/01 21:40:54 [notice] 38#38: exiting
+2026/04/01 21:40:54 [notice] 37#37: exiting
+2026/04/01 21:40:54 [notice] 44#44: exiting
+2026/04/01 21:40:54 [notice] 40#40: exiting
+2026/04/01 21:40:54 [notice] 36#36: exit
+2026/04/01 21:40:54 [notice] 46#46: exiting
+2026/04/01 21:40:54 [notice] 47#47: exiting
+2026/04/01 21:40:54 [notice] 48#48: exiting
+2026/04/01 21:40:54 [notice] 45#45: exiting
+2026/04/01 21:40:54 [notice] 43#43: exiting
+2026/04/01 21:40:54 [notice] 39#39: exiting
+2026/04/01 21:40:54 [notice] 41#41: exiting
+2026/04/01 21:40:54 [notice] 33#33: exit
+2026/04/01 21:40:54 [notice] 42#42: exiting
+2026/04/01 21:40:54 [notice] 35#35: exit
+2026/04/01 21:40:54 [notice] 34#34: exit
+2026/04/01 21:40:54 [notice] 38#38: exit
+2026/04/01 21:40:54 [notice] 37#37: exit
+2026/04/01 21:40:54 [notice] 44#44: exit
+2026/04/01 21:40:54 [notice] 40#40: exit
+2026/04/01 21:40:54 [notice] 46#46: exit
+2026/04/01 21:40:54 [notice] 47#47: exit
+2026/04/01 21:40:54 [notice] 48#48: exit
+2026/04/01 21:40:54 [notice] 45#45: exit
+2026/04/01 21:40:54 [notice] 43#43: exit
+2026/04/01 21:40:54 [notice] 41#41: exit
+2026/04/01 21:40:54 [notice] 39#39: exit
+2026/04/01 21:40:54 [notice] 42#42: exit
+2026/04/01 21:40:54 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2026/04/01 21:40:54 [notice] 1#1: worker process 40 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/01 21:40:54 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2026/04/01 21:40:54 [notice] 1#1: worker process 33 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 35 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 38 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/01 21:40:54 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2026/04/01 21:40:54 [notice] 1#1: worker process 31 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 32 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 34 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 44 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/01 21:40:54 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2026/04/01 21:40:54 [notice] 1#1: signal 17 (SIGCHLD) received from 47
+2026/04/01 21:40:54 [notice] 1#1: worker process 47 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/01 21:40:54 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2026/04/01 21:40:54 [notice] 1#1: worker process 42 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 30 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 41 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 36 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 39 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 37 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 43 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 45 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 46 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: worker process 48 exited with code 0
+2026/04/01 21:40:54 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/01 21:40:54 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2026/04/02 03:01:53 [notice] 1#1: using the "epoll" event method
+2026/04/02 03:01:53 [notice] 1#1: nginx/1.24.0
+2026/04/02 03:01:53 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/02 03:01:53 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2026/04/02 03:01:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/02 03:01:53 [notice] 1#1: start worker processes
+2026/04/02 03:01:53 [notice] 1#1: start worker process 29
+2026/04/02 03:01:53 [notice] 1#1: start worker process 30
+2026/04/02 03:01:53 [notice] 1#1: start worker process 31
+2026/04/02 03:01:53 [notice] 1#1: start worker process 32
+2026/04/02 03:01:53 [notice] 1#1: start worker process 33
+2026/04/02 03:01:53 [notice] 1#1: start worker process 34
+2026/04/02 03:01:53 [notice] 1#1: start worker process 35
+2026/04/02 03:01:53 [notice] 1#1: start worker process 36
+2026/04/02 03:01:53 [notice] 1#1: start worker process 37
+2026/04/02 03:01:53 [notice] 1#1: start worker process 38
+2026/04/02 03:01:53 [notice] 1#1: start worker process 39
+2026/04/02 03:01:53 [notice] 1#1: start worker process 40
+2026/04/02 03:01:53 [notice] 1#1: start worker process 41
+2026/04/02 03:01:53 [notice] 1#1: start worker process 42
+2026/04/02 03:01:53 [notice] 1#1: start worker process 43
+2026/04/02 03:01:53 [notice] 1#1: start worker process 44
+2026/04/02 03:01:53 [notice] 1#1: start worker process 45
+2026/04/02 03:01:53 [notice] 1#1: start worker process 46
+2026/04/02 03:01:53 [notice] 1#1: start worker process 47
+2026/04/02 03:01:53 [notice] 1#1: start worker process 48
+2026/04/02 03:01:53 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/02 03:01:53 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.3:8000/favicon.ico", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:01:55 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/02 03:01:55 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.3:8000/favicon.ico", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:02:51 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/02 03:02:51 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.3:8000/favicon.ico", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:02:56 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/02 03:02:56 [error] 30#30: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://172.18.0.3:8000/favicon.ico", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:04:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/02 03:04:19 [notice] 29#29: gracefully shutting down
+2026/04/02 03:04:19 [notice] 36#36: gracefully shutting down
+2026/04/02 03:04:19 [notice] 30#30: gracefully shutting down
+2026/04/02 03:04:19 [notice] 34#34: gracefully shutting down
+2026/04/02 03:04:19 [notice] 32#32: gracefully shutting down
+2026/04/02 03:04:19 [notice] 38#38: gracefully shutting down
+2026/04/02 03:04:19 [notice] 35#35: gracefully shutting down
+2026/04/02 03:04:19 [notice] 35#35: exiting
+2026/04/02 03:04:19 [notice] 40#40: gracefully shutting down
+2026/04/02 03:04:19 [notice] 41#41: gracefully shutting down
+2026/04/02 03:04:19 [notice] 31#31: gracefully shutting down
+2026/04/02 03:04:19 [notice] 39#39: gracefully shutting down
+2026/04/02 03:04:19 [notice] 39#39: exiting
+2026/04/02 03:04:19 [notice] 43#43: gracefully shutting down
+2026/04/02 03:04:19 [notice] 43#43: exiting
+2026/04/02 03:04:19 [notice] 45#45: gracefully shutting down
+2026/04/02 03:04:19 [notice] 45#45: exiting
+2026/04/02 03:04:19 [notice] 37#37: gracefully shutting down
+2026/04/02 03:04:19 [notice] 33#33: gracefully shutting down
+2026/04/02 03:04:19 [notice] 47#47: gracefully shutting down
+2026/04/02 03:04:19 [notice] 48#48: gracefully shutting down
+2026/04/02 03:04:19 [notice] 46#46: gracefully shutting down
+2026/04/02 03:04:19 [notice] 44#44: gracefully shutting down
+2026/04/02 03:04:19 [notice] 42#42: gracefully shutting down
+2026/04/02 03:04:19 [notice] 42#42: exiting
+2026/04/02 03:04:19 [notice] 29#29: exiting
+2026/04/02 03:04:19 [notice] 36#36: exiting
+2026/04/02 03:04:19 [notice] 30#30: exiting
+2026/04/02 03:04:19 [notice] 34#34: exiting
+2026/04/02 03:04:19 [notice] 32#32: exiting
+2026/04/02 03:04:19 [notice] 38#38: exiting
+2026/04/02 03:04:19 [notice] 35#35: exit
+2026/04/02 03:04:19 [notice] 40#40: exiting
+2026/04/02 03:04:19 [notice] 41#41: exiting
+2026/04/02 03:04:19 [notice] 31#31: exiting
+2026/04/02 03:04:19 [notice] 39#39: exit
+2026/04/02 03:04:19 [notice] 43#43: exit
+2026/04/02 03:04:19 [notice] 45#45: exit
+2026/04/02 03:04:19 [notice] 37#37: exiting
+2026/04/02 03:04:19 [notice] 33#33: exiting
+2026/04/02 03:04:19 [notice] 47#47: exiting
+2026/04/02 03:04:19 [notice] 48#48: exiting
+2026/04/02 03:04:19 [notice] 48#48: exit
+2026/04/02 03:04:19 [notice] 46#46: exiting
+2026/04/02 03:04:19 [notice] 44#44: exiting
+2026/04/02 03:04:19 [notice] 42#42: exit
+2026/04/02 03:04:19 [notice] 29#29: exit
+2026/04/02 03:04:19 [notice] 36#36: exit
+2026/04/02 03:04:19 [notice] 30#30: exit
+2026/04/02 03:04:19 [notice] 34#34: exit
+2026/04/02 03:04:19 [notice] 32#32: exit
+2026/04/02 03:04:19 [notice] 38#38: exit
+2026/04/02 03:04:19 [notice] 40#40: exit
+2026/04/02 03:04:19 [notice] 41#41: exit
+2026/04/02 03:04:19 [notice] 31#31: exit
+2026/04/02 03:04:19 [notice] 37#37: exit
+2026/04/02 03:04:19 [notice] 33#33: exit
+2026/04/02 03:04:19 [notice] 47#47: exit
+2026/04/02 03:04:19 [notice] 46#46: exit
+2026/04/02 03:04:19 [notice] 44#44: exit
+2026/04/02 03:04:19 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2026/04/02 03:04:19 [notice] 1#1: worker process 35 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 43 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 45 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:04:19 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2026/04/02 03:04:19 [notice] 1#1: worker process 39 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:04:19 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2026/04/02 03:04:19 [notice] 1#1: worker process 40 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 47 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:04:19 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2026/04/02 03:04:19 [notice] 1#1: worker process 29 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 30 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 31 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 32 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 33 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 34 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 37 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 38 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 41 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 42 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 44 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 46 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: worker process 48 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:04:19 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2026/04/02 03:04:19 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2026/04/02 03:04:19 [notice] 1#1: worker process 36 exited with code 0
+2026/04/02 03:04:19 [notice] 1#1: exit
+2026/04/02 03:04:37 [notice] 1#1: using the "epoll" event method
+2026/04/02 03:04:37 [notice] 1#1: nginx/1.24.0
+2026/04/02 03:04:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/02 03:04:37 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2026/04/02 03:04:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/02 03:04:37 [notice] 1#1: start worker processes
+2026/04/02 03:04:37 [notice] 1#1: start worker process 29
+2026/04/02 03:04:37 [notice] 1#1: start worker process 30
+2026/04/02 03:04:37 [notice] 1#1: start worker process 31
+2026/04/02 03:04:37 [notice] 1#1: start worker process 32
+2026/04/02 03:04:37 [notice] 1#1: start worker process 33
+2026/04/02 03:04:37 [notice] 1#1: start worker process 34
+2026/04/02 03:04:37 [notice] 1#1: start worker process 35
+2026/04/02 03:04:37 [notice] 1#1: start worker process 36
+2026/04/02 03:04:37 [notice] 1#1: start worker process 37
+2026/04/02 03:04:37 [notice] 1#1: start worker process 38
+2026/04/02 03:04:37 [notice] 1#1: start worker process 39
+2026/04/02 03:04:37 [notice] 1#1: start worker process 40
+2026/04/02 03:04:37 [notice] 1#1: start worker process 41
+2026/04/02 03:04:37 [notice] 1#1: start worker process 42
+2026/04/02 03:04:37 [notice] 1#1: start worker process 43
+2026/04/02 03:04:37 [notice] 1#1: start worker process 44
+2026/04/02 03:04:37 [notice] 1#1: start worker process 45
+2026/04/02 03:04:37 [notice] 1#1: start worker process 46
+2026/04/02 03:04:37 [notice] 1#1: start worker process 47
+2026/04/02 03:04:37 [notice] 1#1: start worker process 48
+2026/04/02 03:23:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/02 03:23:58 [notice] 29#29: gracefully shutting down
+2026/04/02 03:23:58 [notice] 33#33: gracefully shutting down
+2026/04/02 03:23:58 [notice] 38#38: gracefully shutting down
+2026/04/02 03:23:58 [notice] 40#40: gracefully shutting down
+2026/04/02 03:23:58 [notice] 31#31: gracefully shutting down
+2026/04/02 03:23:58 [notice] 32#32: gracefully shutting down
+2026/04/02 03:23:58 [notice] 30#30: gracefully shutting down
+2026/04/02 03:23:58 [notice] 34#34: gracefully shutting down
+2026/04/02 03:23:58 [notice] 41#41: gracefully shutting down
+2026/04/02 03:23:58 [notice] 36#36: gracefully shutting down
+2026/04/02 03:23:58 [notice] 42#42: gracefully shutting down
+2026/04/02 03:23:58 [notice] 35#35: gracefully shutting down
+2026/04/02 03:23:58 [notice] 47#47: gracefully shutting down
+2026/04/02 03:23:58 [notice] 45#45: gracefully shutting down
+2026/04/02 03:23:58 [notice] 37#37: gracefully shutting down
+2026/04/02 03:23:58 [notice] 46#46: gracefully shutting down
+2026/04/02 03:23:58 [notice] 44#44: gracefully shutting down
+2026/04/02 03:23:58 [notice] 48#48: gracefully shutting down
+2026/04/02 03:23:58 [notice] 39#39: gracefully shutting down
+2026/04/02 03:23:58 [notice] 29#29: exiting
+2026/04/02 03:23:58 [notice] 33#33: exiting
+2026/04/02 03:23:58 [notice] 43#43: gracefully shutting down
+2026/04/02 03:23:58 [notice] 40#40: exiting
+2026/04/02 03:23:58 [notice] 31#31: exiting
+2026/04/02 03:23:58 [notice] 32#32: exiting
+2026/04/02 03:23:58 [notice] 31#31: exit
+2026/04/02 03:23:58 [notice] 30#30: exiting
+2026/04/02 03:23:58 [notice] 34#34: exiting
+2026/04/02 03:23:58 [notice] 41#41: exiting
+2026/04/02 03:23:58 [notice] 36#36: exiting
+2026/04/02 03:23:58 [notice] 42#42: exiting
+2026/04/02 03:23:58 [notice] 35#35: exiting
+2026/04/02 03:23:58 [notice] 37#37: exiting
+2026/04/02 03:23:58 [notice] 47#47: exiting
+2026/04/02 03:23:58 [notice] 37#37: exit
+2026/04/02 03:23:58 [notice] 46#46: exiting
+2026/04/02 03:23:58 [notice] 45#45: exiting
+2026/04/02 03:23:58 [notice] 48#48: exiting
+2026/04/02 03:23:58 [notice] 39#39: exiting
+2026/04/02 03:23:58 [notice] 44#44: exiting
+2026/04/02 03:23:58 [notice] 40#40: exit
+2026/04/02 03:23:58 [notice] 33#33: exit
+2026/04/02 03:23:58 [notice] 29#29: exit
+2026/04/02 03:23:58 [notice] 43#43: exiting
+2026/04/02 03:23:58 [notice] 32#32: exit
+2026/04/02 03:23:58 [notice] 43#43: exit
+2026/04/02 03:23:58 [notice] 30#30: exit
+2026/04/02 03:23:58 [notice] 34#34: exit
+2026/04/02 03:23:58 [notice] 41#41: exit
+2026/04/02 03:23:58 [notice] 36#36: exit
+2026/04/02 03:23:58 [notice] 42#42: exit
+2026/04/02 03:23:58 [notice] 35#35: exit
+2026/04/02 03:23:58 [notice] 47#47: exit
+2026/04/02 03:23:58 [notice] 46#46: exit
+2026/04/02 03:23:58 [notice] 45#45: exit
+2026/04/02 03:23:58 [notice] 48#48: exit
+2026/04/02 03:23:58 [notice] 39#39: exit
+2026/04/02 03:23:58 [notice] 44#44: exit
+2026/04/02 03:23:58 [notice] 1#1: signal 17 (SIGCHLD) received from 47
+2026/04/02 03:23:58 [notice] 1#1: worker process 34 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 29 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 30 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 31 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 33 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 35 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 36 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 37 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 40 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 41 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 42 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 44 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 45 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 47 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 48 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:23:58 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2026/04/02 03:23:58 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2026/04/02 03:23:58 [notice] 1#1: worker process 39 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 43 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:23:58 [notice] 1#1: signal 17 (SIGCHLD) received from 46
+2026/04/02 03:23:58 [notice] 1#1: worker process 32 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: worker process 46 exited with code 0
+2026/04/02 03:23:58 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:24:07 [notice] 1#1: using the "epoll" event method
+2026/04/02 03:24:07 [notice] 1#1: nginx/1.24.0
+2026/04/02 03:24:07 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/02 03:24:07 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2026/04/02 03:24:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/02 03:24:07 [notice] 1#1: start worker processes
+2026/04/02 03:24:07 [notice] 1#1: start worker process 29
+2026/04/02 03:24:07 [notice] 1#1: start worker process 30
+2026/04/02 03:24:07 [notice] 1#1: start worker process 31
+2026/04/02 03:24:07 [notice] 1#1: start worker process 32
+2026/04/02 03:24:07 [notice] 1#1: start worker process 33
+2026/04/02 03:24:07 [notice] 1#1: start worker process 34
+2026/04/02 03:24:07 [notice] 1#1: start worker process 35
+2026/04/02 03:24:07 [notice] 1#1: start worker process 36
+2026/04/02 03:24:07 [notice] 1#1: start worker process 37
+2026/04/02 03:24:07 [notice] 1#1: start worker process 38
+2026/04/02 03:24:07 [notice] 1#1: start worker process 39
+2026/04/02 03:24:07 [notice] 1#1: start worker process 40
+2026/04/02 03:24:07 [notice] 1#1: start worker process 41
+2026/04/02 03:24:07 [notice] 1#1: start worker process 42
+2026/04/02 03:24:07 [notice] 1#1: start worker process 43
+2026/04/02 03:24:07 [notice] 1#1: start worker process 44
+2026/04/02 03:24:07 [notice] 1#1: start worker process 45
+2026/04/02 03:24:07 [notice] 1#1: start worker process 46
+2026/04/02 03:24:07 [notice] 1#1: start worker process 47
+2026/04/02 03:24:07 [notice] 1#1: start worker process 48
+2026/04/02 03:24:10 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "POST /scan/create/7 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/create/7", host: "localhost:8888", referrer: "http://localhost:8888/scan/create/7"
+2026/04/02 03:24:13 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "POST /scan/create/7 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/create/7", host: "localhost:8888", referrer: "http://localhost:8888/scan/create/7"
+2026/04/02 03:24:15 [error] 29#29: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "POST /scan/create/7 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/create/7", host: "localhost:8888", referrer: "http://localhost:8888/scan/create/7"
+2026/04/02 03:25:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/02 03:25:08 [notice] 29#29: gracefully shutting down
+2026/04/02 03:25:08 [notice] 30#30: gracefully shutting down
+2026/04/02 03:25:08 [notice] 31#31: gracefully shutting down
+2026/04/02 03:25:08 [notice] 33#33: gracefully shutting down
+2026/04/02 03:25:08 [notice] 34#34: gracefully shutting down
+2026/04/02 03:25:08 [notice] 35#35: gracefully shutting down
+2026/04/02 03:25:08 [notice] 32#32: gracefully shutting down
+2026/04/02 03:25:08 [notice] 36#36: gracefully shutting down
+2026/04/02 03:25:08 [notice] 37#37: gracefully shutting down
+2026/04/02 03:25:08 [notice] 38#38: gracefully shutting down
+2026/04/02 03:25:08 [notice] 39#39: gracefully shutting down
+2026/04/02 03:25:08 [notice] 40#40: gracefully shutting down
+2026/04/02 03:25:08 [notice] 41#41: gracefully shutting down
+2026/04/02 03:25:08 [notice] 43#43: gracefully shutting down
+2026/04/02 03:25:08 [notice] 47#47: gracefully shutting down
+2026/04/02 03:25:08 [notice] 42#42: gracefully shutting down
+2026/04/02 03:25:08 [notice] 48#48: gracefully shutting down
+2026/04/02 03:25:08 [notice] 44#44: gracefully shutting down
+2026/04/02 03:25:08 [notice] 45#45: gracefully shutting down
+2026/04/02 03:25:08 [notice] 46#46: gracefully shutting down
+2026/04/02 03:25:08 [notice] 29#29: exiting
+2026/04/02 03:25:08 [notice] 31#31: exiting
+2026/04/02 03:25:08 [notice] 33#33: exiting
+2026/04/02 03:25:08 [notice] 34#34: exiting
+2026/04/02 03:25:08 [notice] 35#35: exiting
+2026/04/02 03:25:08 [notice] 32#32: exiting
+2026/04/02 03:25:08 [notice] 36#36: exiting
+2026/04/02 03:25:08 [notice] 37#37: exiting
+2026/04/02 03:25:08 [notice] 38#38: exiting
+2026/04/02 03:25:08 [notice] 39#39: exiting
+2026/04/02 03:25:08 [notice] 40#40: exiting
+2026/04/02 03:25:08 [notice] 41#41: exiting
+2026/04/02 03:25:08 [notice] 43#43: exiting
+2026/04/02 03:25:08 [notice] 47#47: exiting
+2026/04/02 03:25:08 [notice] 42#42: exiting
+2026/04/02 03:25:08 [notice] 48#48: exiting
+2026/04/02 03:25:08 [notice] 44#44: exiting
+2026/04/02 03:25:08 [notice] 45#45: exiting
+2026/04/02 03:25:08 [notice] 46#46: exiting
+2026/04/02 03:25:08 [notice] 29#29: exit
+2026/04/02 03:25:08 [notice] 31#31: exit
+2026/04/02 03:25:08 [notice] 33#33: exit
+2026/04/02 03:25:08 [notice] 34#34: exit
+2026/04/02 03:25:08 [notice] 35#35: exit
+2026/04/02 03:25:08 [notice] 32#32: exit
+2026/04/02 03:25:08 [notice] 36#36: exit
+2026/04/02 03:25:08 [notice] 37#37: exit
+2026/04/02 03:25:08 [notice] 38#38: exit
+2026/04/02 03:25:08 [notice] 39#39: exit
+2026/04/02 03:25:08 [notice] 40#40: exit
+2026/04/02 03:25:08 [notice] 41#41: exit
+2026/04/02 03:25:08 [notice] 43#43: exit
+2026/04/02 03:25:08 [notice] 47#47: exit
+2026/04/02 03:25:08 [notice] 42#42: exit
+2026/04/02 03:25:08 [notice] 48#48: exit
+2026/04/02 03:25:08 [notice] 44#44: exit
+2026/04/02 03:25:08 [notice] 45#45: exit
+2026/04/02 03:25:08 [notice] 46#46: exit
+2026/04/02 03:25:08 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2026/04/02 03:25:08 [notice] 1#1: worker process 31 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 32 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 33 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 35 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 36 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 37 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 38 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 39 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 42 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 43 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 45 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:25:08 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2026/04/02 03:25:08 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2026/04/02 03:25:08 [notice] 1#1: worker process 29 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 34 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 40 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 41 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 44 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 46 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 47 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: worker process 48 exited with code 0
+2026/04/02 03:25:08 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:25:08 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2026/04/02 03:25:16 [notice] 1#1: using the "epoll" event method
+2026/04/02 03:25:16 [notice] 1#1: nginx/1.24.0
+2026/04/02 03:25:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/02 03:25:16 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2026/04/02 03:25:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/02 03:25:16 [notice] 1#1: start worker processes
+2026/04/02 03:25:16 [notice] 1#1: start worker process 22
+2026/04/02 03:25:16 [notice] 1#1: start worker process 23
+2026/04/02 03:25:16 [notice] 1#1: start worker process 24
+2026/04/02 03:25:16 [notice] 1#1: start worker process 25
+2026/04/02 03:25:16 [notice] 1#1: start worker process 26
+2026/04/02 03:25:16 [notice] 1#1: start worker process 27
+2026/04/02 03:25:16 [notice] 1#1: start worker process 28
+2026/04/02 03:25:16 [notice] 1#1: start worker process 29
+2026/04/02 03:25:16 [notice] 1#1: start worker process 30
+2026/04/02 03:25:16 [notice] 1#1: start worker process 31
+2026/04/02 03:25:16 [notice] 1#1: start worker process 32
+2026/04/02 03:25:16 [notice] 1#1: start worker process 33
+2026/04/02 03:25:16 [notice] 1#1: start worker process 34
+2026/04/02 03:25:16 [notice] 1#1: start worker process 35
+2026/04/02 03:25:16 [notice] 1#1: start worker process 36
+2026/04/02 03:25:16 [notice] 1#1: start worker process 37
+2026/04/02 03:25:16 [notice] 1#1: start worker process 38
+2026/04/02 03:25:16 [notice] 1#1: start worker process 39
+2026/04/02 03:25:16 [notice] 1#1: start worker process 40
+2026/04/02 03:25:16 [notice] 1#1: start worker process 41
+2026/04/02 03:25:19 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "POST /scan/create/7 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/create/7", host: "localhost:8888", referrer: "http://localhost:8888/scan/create/7"
+2026/04/02 03:25:21 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "POST /scan/create/7 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/create/7", host: "localhost:8888", referrer: "http://localhost:8888/scan/create/7"
+2026/04/02 03:25:23 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "POST /scan/create/7 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/create/7", host: "localhost:8888", referrer: "http://localhost:8888/scan/create/7"
+2026/04/02 03:25:25 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "POST /scan/create/7 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/create/7", host: "localhost:8888", referrer: "http://localhost:8888/scan/create/7"
+2026/04/02 03:25:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/02 03:25:30 [notice] 24#24: gracefully shutting down
+2026/04/02 03:25:30 [notice] 24#24: exiting
+2026/04/02 03:25:30 [notice] 25#25: gracefully shutting down
+2026/04/02 03:25:30 [notice] 23#23: gracefully shutting down
+2026/04/02 03:25:30 [notice] 26#26: gracefully shutting down
+2026/04/02 03:25:30 [notice] 22#22: gracefully shutting down
+2026/04/02 03:25:30 [notice] 27#27: gracefully shutting down
+2026/04/02 03:25:30 [notice] 27#27: exiting
+2026/04/02 03:25:30 [notice] 28#28: gracefully shutting down
+2026/04/02 03:25:30 [notice] 30#30: gracefully shutting down
+2026/04/02 03:25:30 [notice] 29#29: gracefully shutting down
+2026/04/02 03:25:30 [notice] 31#31: gracefully shutting down
+2026/04/02 03:25:30 [notice] 32#32: gracefully shutting down
+2026/04/02 03:25:30 [notice] 34#34: gracefully shutting down
+2026/04/02 03:25:30 [notice] 35#35: gracefully shutting down
+2026/04/02 03:25:30 [notice] 36#36: gracefully shutting down
+2026/04/02 03:25:30 [notice] 37#37: gracefully shutting down
+2026/04/02 03:25:30 [notice] 37#37: exiting
+2026/04/02 03:25:30 [notice] 38#38: gracefully shutting down
+2026/04/02 03:25:30 [notice] 33#33: gracefully shutting down
+2026/04/02 03:25:30 [notice] 40#40: gracefully shutting down
+2026/04/02 03:25:30 [notice] 41#41: gracefully shutting down
+2026/04/02 03:25:30 [notice] 39#39: gracefully shutting down
+2026/04/02 03:25:30 [notice] 24#24: exit
+2026/04/02 03:25:30 [notice] 25#25: exiting
+2026/04/02 03:25:30 [notice] 26#26: exiting
+2026/04/02 03:25:30 [notice] 22#22: exiting
+2026/04/02 03:25:30 [notice] 27#27: exit
+2026/04/02 03:25:30 [notice] 28#28: exiting
+2026/04/02 03:25:30 [notice] 30#30: exiting
+2026/04/02 03:25:30 [notice] 29#29: exiting
+2026/04/02 03:25:30 [notice] 31#31: exiting
+2026/04/02 03:25:30 [notice] 32#32: exiting
+2026/04/02 03:25:30 [notice] 34#34: exiting
+2026/04/02 03:25:30 [notice] 35#35: exiting
+2026/04/02 03:25:30 [notice] 36#36: exiting
+2026/04/02 03:25:30 [notice] 37#37: exit
+2026/04/02 03:25:30 [notice] 38#38: exiting
+2026/04/02 03:25:30 [notice] 38#38: exit
+2026/04/02 03:25:30 [notice] 33#33: exiting
+2026/04/02 03:25:30 [notice] 40#40: exiting
+2026/04/02 03:25:30 [notice] 41#41: exiting
+2026/04/02 03:25:30 [notice] 39#39: exiting
+2026/04/02 03:25:30 [notice] 25#25: exit
+2026/04/02 03:25:30 [notice] 26#26: exit
+2026/04/02 03:25:30 [notice] 22#22: exit
+2026/04/02 03:25:30 [notice] 28#28: exit
+2026/04/02 03:25:30 [notice] 30#30: exit
+2026/04/02 03:25:30 [notice] 29#29: exit
+2026/04/02 03:25:30 [notice] 31#31: exit
+2026/04/02 03:25:30 [notice] 32#32: exit
+2026/04/02 03:25:30 [notice] 34#34: exit
+2026/04/02 03:25:30 [notice] 35#35: exit
+2026/04/02 03:25:30 [notice] 36#36: exit
+2026/04/02 03:25:30 [notice] 33#33: exit
+2026/04/02 03:25:30 [notice] 40#40: exit
+2026/04/02 03:25:30 [notice] 41#41: exit
+2026/04/02 03:25:30 [notice] 39#39: exit
+2026/04/02 03:25:30 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2026/04/02 03:25:30 [notice] 1#1: worker process 22 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 28 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 33 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 34 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:25:30 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2026/04/02 03:25:30 [notice] 1#1: worker process 24 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 25 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 26 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 27 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 30 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 32 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 36 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 37 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 40 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 41 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:25:30 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/04/02 03:25:30 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2026/04/02 03:25:30 [notice] 1#1: worker process 29 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 31 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 38 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:25:30 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2026/04/02 03:25:30 [notice] 1#1: worker process 35 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: worker process 39 exited with code 0
+2026/04/02 03:25:30 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:25:32 [notice] 1#1: using the "epoll" event method
+2026/04/02 03:25:32 [notice] 1#1: nginx/1.24.0
+2026/04/02 03:25:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/02 03:25:32 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2026/04/02 03:25:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/02 03:25:32 [notice] 1#1: start worker processes
+2026/04/02 03:25:32 [notice] 1#1: start worker process 22
+2026/04/02 03:25:32 [notice] 1#1: start worker process 23
+2026/04/02 03:25:32 [notice] 1#1: start worker process 24
+2026/04/02 03:25:32 [notice] 1#1: start worker process 25
+2026/04/02 03:25:32 [notice] 1#1: start worker process 26
+2026/04/02 03:25:32 [notice] 1#1: start worker process 27
+2026/04/02 03:25:32 [notice] 1#1: start worker process 28
+2026/04/02 03:25:32 [notice] 1#1: start worker process 29
+2026/04/02 03:25:32 [notice] 1#1: start worker process 30
+2026/04/02 03:25:32 [notice] 1#1: start worker process 31
+2026/04/02 03:25:32 [notice] 1#1: start worker process 32
+2026/04/02 03:25:32 [notice] 1#1: start worker process 33
+2026/04/02 03:25:32 [notice] 1#1: start worker process 34
+2026/04/02 03:25:32 [notice] 1#1: start worker process 35
+2026/04/02 03:25:32 [notice] 1#1: start worker process 36
+2026/04/02 03:25:32 [notice] 1#1: start worker process 37
+2026/04/02 03:25:32 [notice] 1#1: start worker process 38
+2026/04/02 03:25:32 [notice] 1#1: start worker process 39
+2026/04/02 03:25:32 [notice] 1#1: start worker process 40
+2026/04/02 03:25:32 [notice] 1#1: start worker process 41
+2026/04/02 03:25:33 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "POST /scan/create/7 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/create/7", host: "localhost:8888", referrer: "http://localhost:8888/scan/create/7"
+2026/04/02 03:25:37 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/02 03:25:39 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/02 03:27:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/02 03:27:02 [notice] 22#22: gracefully shutting down
+2026/04/02 03:27:02 [notice] 25#25: gracefully shutting down
+2026/04/02 03:27:02 [notice] 24#24: gracefully shutting down
+2026/04/02 03:27:02 [notice] 27#27: gracefully shutting down
+2026/04/02 03:27:02 [notice] 23#23: gracefully shutting down
+2026/04/02 03:27:02 [notice] 28#28: gracefully shutting down
+2026/04/02 03:27:02 [notice] 29#29: gracefully shutting down
+2026/04/02 03:27:02 [notice] 31#31: gracefully shutting down
+2026/04/02 03:27:02 [notice] 31#31: exiting
+2026/04/02 03:27:02 [notice] 30#30: gracefully shutting down
+2026/04/02 03:27:02 [notice] 32#32: gracefully shutting down
+2026/04/02 03:27:02 [notice] 26#26: gracefully shutting down
+2026/04/02 03:27:02 [notice] 34#34: gracefully shutting down
+2026/04/02 03:27:02 [notice] 33#33: gracefully shutting down
+2026/04/02 03:27:02 [notice] 38#38: gracefully shutting down
+2026/04/02 03:27:02 [notice] 35#35: gracefully shutting down
+2026/04/02 03:27:02 [notice] 36#36: gracefully shutting down
+2026/04/02 03:27:02 [notice] 39#39: gracefully shutting down
+2026/04/02 03:27:02 [notice] 41#41: gracefully shutting down
+2026/04/02 03:27:02 [notice] 37#37: gracefully shutting down
+2026/04/02 03:27:02 [notice] 40#40: gracefully shutting down
+2026/04/02 03:27:02 [notice] 22#22: exiting
+2026/04/02 03:27:02 [notice] 25#25: exiting
+2026/04/02 03:27:02 [notice] 24#24: exiting
+2026/04/02 03:27:02 [notice] 27#27: exiting
+2026/04/02 03:27:02 [notice] 23#23: exiting
+2026/04/02 03:27:02 [notice] 28#28: exiting
+2026/04/02 03:27:02 [notice] 29#29: exiting
+2026/04/02 03:27:02 [notice] 31#31: exit
+2026/04/02 03:27:02 [notice] 30#30: exiting
+2026/04/02 03:27:02 [notice] 32#32: exiting
+2026/04/02 03:27:02 [notice] 26#26: exiting
+2026/04/02 03:27:02 [notice] 33#33: exiting
+2026/04/02 03:27:02 [notice] 38#38: exiting
+2026/04/02 03:27:02 [notice] 36#36: exiting
+2026/04/02 03:27:02 [notice] 39#39: exiting
+2026/04/02 03:27:02 [notice] 41#41: exiting
+2026/04/02 03:27:02 [notice] 37#37: exiting
+2026/04/02 03:27:02 [notice] 40#40: exiting
+2026/04/02 03:27:02 [notice] 22#22: exit
+2026/04/02 03:27:02 [notice] 25#25: exit
+2026/04/02 03:27:02 [notice] 24#24: exit
+2026/04/02 03:27:02 [notice] 27#27: exit
+2026/04/02 03:27:02 [notice] 23#23: exit
+2026/04/02 03:27:02 [notice] 28#28: exit
+2026/04/02 03:27:02 [notice] 29#29: exit
+2026/04/02 03:27:02 [notice] 30#30: exit
+2026/04/02 03:27:02 [notice] 32#32: exit
+2026/04/02 03:27:02 [notice] 26#26: exit
+2026/04/02 03:27:02 [notice] 33#33: exit
+2026/04/02 03:27:02 [notice] 38#38: exit
+2026/04/02 03:27:02 [notice] 36#36: exit
+2026/04/02 03:27:02 [notice] 39#39: exit
+2026/04/02 03:27:02 [notice] 41#41: exit
+2026/04/02 03:27:02 [notice] 37#37: exit
+2026/04/02 03:27:02 [notice] 40#40: exit
+2026/04/02 03:27:02 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2026/04/02 03:27:02 [notice] 1#1: worker process 22 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 24 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 25 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 26 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 27 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 28 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 29 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 30 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 31 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 32 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 33 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 36 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 37 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 38 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 39 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 41 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:27:02 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/04/02 03:27:02 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2026/04/02 03:27:02 [notice] 1#1: worker process 23 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: worker process 40 exited with code 0
+2026/04/02 03:27:02 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:27:10 [notice] 1#1: using the "epoll" event method
+2026/04/02 03:27:10 [notice] 1#1: nginx/1.24.0
+2026/04/02 03:27:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/02 03:27:10 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2026/04/02 03:27:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/02 03:27:10 [notice] 1#1: start worker processes
+2026/04/02 03:27:10 [notice] 1#1: start worker process 22
+2026/04/02 03:27:10 [notice] 1#1: start worker process 23
+2026/04/02 03:27:10 [notice] 1#1: start worker process 24
+2026/04/02 03:27:10 [notice] 1#1: start worker process 25
+2026/04/02 03:27:10 [notice] 1#1: start worker process 26
+2026/04/02 03:27:10 [notice] 1#1: start worker process 27
+2026/04/02 03:27:10 [notice] 1#1: start worker process 28
+2026/04/02 03:27:10 [notice] 1#1: start worker process 29
+2026/04/02 03:27:10 [notice] 1#1: start worker process 30
+2026/04/02 03:27:10 [notice] 1#1: start worker process 31
+2026/04/02 03:27:10 [notice] 1#1: start worker process 32
+2026/04/02 03:27:10 [notice] 1#1: start worker process 33
+2026/04/02 03:27:10 [notice] 1#1: start worker process 34
+2026/04/02 03:27:10 [notice] 1#1: start worker process 35
+2026/04/02 03:27:10 [notice] 1#1: start worker process 36
+2026/04/02 03:27:10 [notice] 1#1: start worker process 37
+2026/04/02 03:27:10 [notice] 1#1: start worker process 38
+2026/04/02 03:27:10 [notice] 1#1: start worker process 39
+2026/04/02 03:27:10 [notice] 1#1: start worker process 40
+2026/04/02 03:27:10 [notice] 1#1: start worker process 41
+2026/04/02 03:27:11 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /scan/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:27:12 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /scan/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:27:16 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /scan/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:27:16 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /scan/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:27:16 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /scan/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:27:16 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /scan/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:27:17 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /scan/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:27:17 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /scan/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:27:17 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /scan/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/1", host: "localhost:8888", referrer: "http://localhost:8888/"
+2026/04/02 03:34:10 [error] 39#39: *44 upstream prematurely closed connection while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /export/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/export/1", host: "localhost:8888", referrer: "http://localhost:8888/scan/1"
+2026/04/02 03:36:04 [error] 39#39: *44 upstream prematurely closed connection while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /export/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/export/1", host: "localhost:8888", referrer: "http://localhost:8888/scan/1"
+2026/04/02 03:36:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/02 03:36:57 [notice] 22#22: gracefully shutting down
+2026/04/02 03:36:57 [notice] 28#28: gracefully shutting down
+2026/04/02 03:36:57 [notice] 23#23: gracefully shutting down
+2026/04/02 03:36:57 [notice] 26#26: gracefully shutting down
+2026/04/02 03:36:57 [notice] 27#27: gracefully shutting down
+2026/04/02 03:36:57 [notice] 25#25: gracefully shutting down
+2026/04/02 03:36:57 [notice] 31#31: gracefully shutting down
+2026/04/02 03:36:57 [notice] 29#29: gracefully shutting down
+2026/04/02 03:36:57 [notice] 39#39: gracefully shutting down
+2026/04/02 03:36:57 [notice] 32#32: gracefully shutting down
+2026/04/02 03:36:57 [notice] 24#24: gracefully shutting down
+2026/04/02 03:36:57 [notice] 40#40: gracefully shutting down
+2026/04/02 03:36:57 [notice] 41#41: gracefully shutting down
+2026/04/02 03:36:57 [notice] 35#35: gracefully shutting down
+2026/04/02 03:36:57 [notice] 34#34: gracefully shutting down
+2026/04/02 03:36:57 [notice] 37#37: gracefully shutting down
+2026/04/02 03:36:57 [notice] 38#38: gracefully shutting down
+2026/04/02 03:36:57 [notice] 33#33: gracefully shutting down
+2026/04/02 03:36:57 [notice] 30#30: gracefully shutting down
+2026/04/02 03:36:57 [notice] 36#36: gracefully shutting down
+2026/04/02 03:36:57 [notice] 22#22: exiting
+2026/04/02 03:36:57 [notice] 28#28: exiting
+2026/04/02 03:36:57 [notice] 23#23: exiting
+2026/04/02 03:36:57 [notice] 26#26: exiting
+2026/04/02 03:36:57 [notice] 27#27: exiting
+2026/04/02 03:36:57 [notice] 25#25: exiting
+2026/04/02 03:36:57 [notice] 31#31: exiting
+2026/04/02 03:36:57 [notice] 29#29: exiting
+2026/04/02 03:36:57 [notice] 32#32: exiting
+2026/04/02 03:36:57 [notice] 24#24: exiting
+2026/04/02 03:36:57 [notice] 40#40: exiting
+2026/04/02 03:36:57 [notice] 41#41: exiting
+2026/04/02 03:36:57 [notice] 35#35: exiting
+2026/04/02 03:36:57 [notice] 34#34: exiting
+2026/04/02 03:36:57 [notice] 38#38: exiting
+2026/04/02 03:36:57 [notice] 37#37: exiting
+2026/04/02 03:36:57 [notice] 33#33: exiting
+2026/04/02 03:36:57 [notice] 30#30: exiting
+2026/04/02 03:36:57 [notice] 36#36: exiting
+2026/04/02 03:36:57 [notice] 22#22: exit
+2026/04/02 03:36:57 [notice] 28#28: exit
+2026/04/02 03:36:57 [notice] 23#23: exit
+2026/04/02 03:36:57 [notice] 26#26: exit
+2026/04/02 03:36:57 [notice] 27#27: exit
+2026/04/02 03:36:57 [notice] 25#25: exit
+2026/04/02 03:36:57 [notice] 31#31: exit
+2026/04/02 03:36:57 [notice] 29#29: exit
+2026/04/02 03:36:57 [notice] 32#32: exit
+2026/04/02 03:36:57 [notice] 24#24: exit
+2026/04/02 03:36:57 [notice] 40#40: exit
+2026/04/02 03:36:57 [notice] 41#41: exit
+2026/04/02 03:36:57 [notice] 35#35: exit
+2026/04/02 03:36:57 [notice] 34#34: exit
+2026/04/02 03:36:57 [notice] 38#38: exit
+2026/04/02 03:36:57 [notice] 37#37: exit
+2026/04/02 03:36:57 [notice] 33#33: exit
+2026/04/02 03:36:57 [notice] 30#30: exit
+2026/04/02 03:36:57 [notice] 36#36: exit
+2026/04/02 03:36:57 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2026/04/02 03:36:57 [notice] 1#1: worker process 23 exited with code 0
+2026/04/02 03:36:57 [notice] 1#1: worker process 24 exited with code 0
+2026/04/02 03:36:57 [notice] 1#1: worker process 28 exited with code 0
+2026/04/02 03:36:57 [notice] 1#1: worker process 29 exited with code 0
+2026/04/02 03:36:57 [notice] 1#1: worker process 30 exited with code 0
+2026/04/02 03:36:57 [notice] 1#1: worker process 31 exited with code 0
+2026/04/02 03:36:57 [notice] 1#1: worker process 33 exited with code 0
+2026/04/02 03:36:57 [notice] 1#1: worker process 35 exited with code 0
+2026/04/02 03:36:57 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:36:57 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2026/04/02 03:36:58 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2026/04/02 03:36:58 [notice] 1#1: worker process 37 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: worker process 40 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:36:58 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2026/04/02 03:36:58 [notice] 1#1: worker process 22 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: worker process 25 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: worker process 26 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: worker process 27 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: worker process 32 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: worker process 34 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: worker process 36 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: worker process 38 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: worker process 41 exited with code 0
+2026/04/02 03:36:58 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:36:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2026/04/02 03:37:12 [notice] 1#1: using the "epoll" event method
+2026/04/02 03:37:12 [notice] 1#1: nginx/1.24.0
+2026/04/02 03:37:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/02 03:37:12 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2026/04/02 03:37:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/02 03:37:12 [notice] 1#1: start worker processes
+2026/04/02 03:37:12 [notice] 1#1: start worker process 22
+2026/04/02 03:37:12 [notice] 1#1: start worker process 23
+2026/04/02 03:37:12 [notice] 1#1: start worker process 24
+2026/04/02 03:37:12 [notice] 1#1: start worker process 25
+2026/04/02 03:37:12 [notice] 1#1: start worker process 26
+2026/04/02 03:37:12 [notice] 1#1: start worker process 27
+2026/04/02 03:37:12 [notice] 1#1: start worker process 28
+2026/04/02 03:37:12 [notice] 1#1: start worker process 29
+2026/04/02 03:37:12 [notice] 1#1: start worker process 30
+2026/04/02 03:37:12 [notice] 1#1: start worker process 31
+2026/04/02 03:37:12 [notice] 1#1: start worker process 32
+2026/04/02 03:37:12 [notice] 1#1: start worker process 33
+2026/04/02 03:37:12 [notice] 1#1: start worker process 34
+2026/04/02 03:37:12 [notice] 1#1: start worker process 35
+2026/04/02 03:37:12 [notice] 1#1: start worker process 36
+2026/04/02 03:37:12 [notice] 1#1: start worker process 37
+2026/04/02 03:37:12 [notice] 1#1: start worker process 38
+2026/04/02 03:37:12 [notice] 1#1: start worker process 39
+2026/04/02 03:37:12 [notice] 1#1: start worker process 40
+2026/04/02 03:37:12 [notice] 1#1: start worker process 41
+2026/04/02 03:37:15 [error] 23#23: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /export/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/export/1", host: "localhost:8888", referrer: "http://localhost:8888/scan/1"
+2026/04/02 03:37:15 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "POST /scan/create/7 HTTP/1.1", upstream: "http://172.18.0.3:8000/scan/create/7", host: "localhost:8888", referrer: "http://localhost:8888/scan/create/7"
+2026/04/02 03:37:19 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/02 03:37:21 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/02 03:37:22 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://172.18.0.3:8000/", host: "localhost:8888"
+2026/04/02 03:41:19 [error] 22#22: *1 upstream prematurely closed connection while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /export/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/export/1", host: "localhost:8888", referrer: "http://localhost:8888/scan/1"
+2026/04/02 03:49:32 [error] 25#25: *41 upstream prematurely closed connection while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /export/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/export/1", host: "localhost:8888", referrer: "http://localhost:8888/scan/1"
+2026/04/02 03:50:02 [error] 26#26: *42 upstream prematurely closed connection while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /export/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/export/1", host: "localhost:8888", referrer: "http://localhost:8888/scan/1"
+2026/04/02 03:52:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2026/04/02 03:52:29 [notice] 22#22: gracefully shutting down
+2026/04/02 03:52:29 [notice] 26#26: gracefully shutting down
+2026/04/02 03:52:29 [notice] 24#24: gracefully shutting down
+2026/04/02 03:52:29 [notice] 35#35: gracefully shutting down
+2026/04/02 03:52:29 [notice] 27#27: gracefully shutting down
+2026/04/02 03:52:29 [notice] 25#25: gracefully shutting down
+2026/04/02 03:52:29 [notice] 28#28: gracefully shutting down
+2026/04/02 03:52:29 [notice] 29#29: gracefully shutting down
+2026/04/02 03:52:29 [notice] 31#31: gracefully shutting down
+2026/04/02 03:52:29 [notice] 23#23: gracefully shutting down
+2026/04/02 03:52:29 [notice] 29#29: exiting
+2026/04/02 03:52:29 [notice] 34#34: gracefully shutting down
+2026/04/02 03:52:29 [notice] 30#30: gracefully shutting down
+2026/04/02 03:52:29 [notice] 36#36: gracefully shutting down
+2026/04/02 03:52:29 [notice] 29#29: exit
+2026/04/02 03:52:29 [notice] 32#32: gracefully shutting down
+2026/04/02 03:52:29 [notice] 30#30: exiting
+2026/04/02 03:52:29 [notice] 37#37: gracefully shutting down
+2026/04/02 03:52:29 [notice] 30#30: exit
+2026/04/02 03:52:29 [notice] 39#39: gracefully shutting down
+2026/04/02 03:52:29 [notice] 33#33: gracefully shutting down
+2026/04/02 03:52:29 [notice] 40#40: gracefully shutting down
+2026/04/02 03:52:29 [notice] 41#41: gracefully shutting down
+2026/04/02 03:52:29 [notice] 38#38: gracefully shutting down
+2026/04/02 03:52:29 [notice] 24#24: exiting
+2026/04/02 03:52:29 [notice] 22#22: exiting
+2026/04/02 03:52:29 [notice] 35#35: exiting
+2026/04/02 03:52:29 [notice] 25#25: exiting
+2026/04/02 03:52:29 [notice] 28#28: exiting
+2026/04/02 03:52:29 [notice] 31#31: exiting
+2026/04/02 03:52:29 [notice] 23#23: exiting
+2026/04/02 03:52:29 [notice] 34#34: exiting
+2026/04/02 03:52:29 [notice] 36#36: exiting
+2026/04/02 03:52:29 [notice] 32#32: exiting
+2026/04/02 03:52:29 [notice] 37#37: exiting
+2026/04/02 03:52:29 [notice] 33#33: exiting
+2026/04/02 03:52:29 [notice] 39#39: exiting
+2026/04/02 03:52:29 [notice] 40#40: exiting
+2026/04/02 03:52:29 [notice] 39#39: exit
+2026/04/02 03:52:29 [notice] 41#41: exiting
+2026/04/02 03:52:29 [notice] 24#24: exit
+2026/04/02 03:52:29 [notice] 22#22: exit
+2026/04/02 03:52:29 [notice] 38#38: exiting
+2026/04/02 03:52:29 [notice] 35#35: exit
+2026/04/02 03:52:29 [notice] 25#25: exit
+2026/04/02 03:52:29 [notice] 28#28: exit
+2026/04/02 03:52:29 [notice] 31#31: exit
+2026/04/02 03:52:29 [notice] 23#23: exit
+2026/04/02 03:52:29 [notice] 34#34: exit
+2026/04/02 03:52:29 [notice] 36#36: exit
+2026/04/02 03:52:29 [notice] 32#32: exit
+2026/04/02 03:52:29 [notice] 37#37: exit
+2026/04/02 03:52:29 [notice] 33#33: exit
+2026/04/02 03:52:29 [notice] 40#40: exit
+2026/04/02 03:52:29 [notice] 41#41: exit
+2026/04/02 03:52:29 [notice] 38#38: exit
+2026/04/02 03:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2026/04/02 03:52:29 [notice] 1#1: worker process 36 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2026/04/02 03:52:29 [notice] 1#1: worker process 22 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 30 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2026/04/02 03:52:29 [notice] 1#1: worker process 23 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 24 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 28 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 29 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 31 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 37 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 40 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 41 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2026/04/02 03:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2026/04/02 03:52:29 [notice] 1#1: worker process 25 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 32 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 33 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 34 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 38 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: worker process 39 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2026/04/02 03:52:29 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2026/04/02 03:52:29 [notice] 1#1: worker process 35 exited with code 0
+2026/04/02 03:52:29 [notice] 1#1: signal 29 (SIGIO) received
+2026/04/02 03:52:37 [notice] 1#1: using the "epoll" event method
+2026/04/02 03:52:37 [notice] 1#1: nginx/1.24.0
+2026/04/02 03:52:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2026/04/02 03:52:37 [notice] 1#1: OS: Linux 5.15.167.4-microsoft-standard-WSL2
+2026/04/02 03:52:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2026/04/02 03:52:37 [notice] 1#1: start worker processes
+2026/04/02 03:52:37 [notice] 1#1: start worker process 22
+2026/04/02 03:52:37 [notice] 1#1: start worker process 23
+2026/04/02 03:52:37 [notice] 1#1: start worker process 24
+2026/04/02 03:52:37 [notice] 1#1: start worker process 25
+2026/04/02 03:52:37 [notice] 1#1: start worker process 26
+2026/04/02 03:52:37 [notice] 1#1: start worker process 27
+2026/04/02 03:52:37 [notice] 1#1: start worker process 28
+2026/04/02 03:52:37 [notice] 1#1: start worker process 29
+2026/04/02 03:52:37 [notice] 1#1: start worker process 30
+2026/04/02 03:52:37 [notice] 1#1: start worker process 31
+2026/04/02 03:52:37 [notice] 1#1: start worker process 32
+2026/04/02 03:52:37 [notice] 1#1: start worker process 33
+2026/04/02 03:52:37 [notice] 1#1: start worker process 34
+2026/04/02 03:52:37 [notice] 1#1: start worker process 35
+2026/04/02 03:52:37 [notice] 1#1: start worker process 36
+2026/04/02 03:52:37 [notice] 1#1: start worker process 37
+2026/04/02 03:52:37 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.18.0.1, server: localhost, request: "GET /export/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/export/1", host: "localhost:8888", referrer: "http://localhost:8888/scan/1"
+2026/04/02 03:52:37 [notice] 1#1: start worker process 38
+2026/04/02 03:52:37 [notice] 1#1: start worker process 39
+2026/04/02 03:52:37 [notice] 1#1: start worker process 40
+2026/04/02 03:52:37 [notice] 1#1: start worker process 41
+2026/04/02 03:58:03 [error] 28#28: *10 upstream prematurely closed connection while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /export/1 HTTP/1.1", upstream: "http://172.18.0.3:8000/export/1", host: "localhost:8888", referrer: "http://localhost:8888/scan/1"

@@ -1,0 +1,56 @@
+<extension xmlns="http://ns.adobe.com/air/extension/33.1">
+	<id>com.distriqt.PackageManager</id>
+	<versionNumber>3.4.1</versionNumber>
+	<platforms>
+
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.packagemanager.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.packagemanager.PackageManagerExtension</initializer>
+				<finalizer>com.distriqt.extension.packagemanager.PackageManagerExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM64">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.packagemanager.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.packagemanager.PackageManagerExtension</initializer>
+				<finalizer>com.distriqt.extension.packagemanager.PackageManagerExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.packagemanager.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.packagemanager.PackageManagerExtension</initializer>
+				<finalizer>com.distriqt.extension.packagemanager.PackageManagerExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x64">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.packagemanager.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.packagemanager.PackageManagerExtension</initializer>
+				<finalizer>com.distriqt.extension.packagemanager.PackageManagerExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libPackageManager.a</nativeLibrary>
+				<initializer>PackageManagerExtInitializer</initializer>
+				<finalizer>PackageManagerExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libPackageManager.a</nativeLibrary>
+				<initializer>PackageManagerExtInitializer</initializer>
+				<finalizer>PackageManagerExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+		
+	</platforms>
+</extension>
+

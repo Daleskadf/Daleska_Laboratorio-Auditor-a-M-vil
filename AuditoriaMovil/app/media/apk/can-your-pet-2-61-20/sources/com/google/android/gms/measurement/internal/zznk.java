@@ -1,0 +1,22 @@
+package com.google.android.gms.measurement.internal;
+
+import java.util.List;
+import java.util.Map;
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: com.google.android.gms:play-services-measurement@@22.0.0 */
+/* loaded from: classes3.dex */
+public final class zznk implements zzgf {
+    private final /* synthetic */ String zza;
+    private final /* synthetic */ zzni zzb;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public zznk(zzni zzniVar, String str) {
+        this.zza = str;
+        this.zzb = zzniVar;
+    }
+
+    @Override // com.google.android.gms.measurement.internal.zzgf
+    public final void zza(String str, int i, Throwable th, byte[] bArr, Map<String, List<String>> map) {
+        this.zzb.zza(true, i, th, bArr, this.zza);
+    }
+}

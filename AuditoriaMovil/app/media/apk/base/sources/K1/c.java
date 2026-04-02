@@ -1,0 +1,266 @@
+package K1;
+
+import K0.q;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+/* loaded from: classes.dex */
+public final class c extends i {
+
+    /* renamed from: i  reason: collision with root package name */
+    public final int f2562i;
+    public final int j;
+
+    /* renamed from: k  reason: collision with root package name */
+    public final int f2563k;
+
+    /* renamed from: o  reason: collision with root package name */
+    public List f2567o;
+
+    /* renamed from: p  reason: collision with root package name */
+    public List f2568p;
+
+    /* renamed from: q  reason: collision with root package name */
+    public int f2569q;
+
+    /* renamed from: r  reason: collision with root package name */
+    public int f2570r;
+
+    /* renamed from: s  reason: collision with root package name */
+    public boolean f2571s;
+
+    /* renamed from: t  reason: collision with root package name */
+    public boolean f2572t;
+
+    /* renamed from: u  reason: collision with root package name */
+    public byte f2573u;
+
+    /* renamed from: v  reason: collision with root package name */
+    public byte f2574v;
+
+    /* renamed from: x  reason: collision with root package name */
+    public boolean f2576x;
+
+    /* renamed from: y  reason: collision with root package name */
+    public long f2577y;
+
+    /* renamed from: z  reason: collision with root package name */
+    public static final int[] f2560z = {11, 1, 3, 12, 14, 5, 7, 9};
+
+    /* renamed from: A  reason: collision with root package name */
+    public static final int[] f2553A = {0, 4, 8, 12, 16, 20, 24, 28};
+
+    /* renamed from: B  reason: collision with root package name */
+    public static final int[] f2554B = {-1, -16711936, -16776961, -16711681, -65536, -256, -65281};
+
+    /* renamed from: C  reason: collision with root package name */
+    public static final int[] f2555C = {32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 225, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 233, 93, 237, 243, 250, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 231, 247, 209, 241, 9632};
+
+    /* renamed from: D  reason: collision with root package name */
+    public static final int[] f2556D = {174, 176, 189, 191, 8482, 162, 163, 9834, 224, 32, 232, 226, 234, 238, 244, 251};
+
+    /* renamed from: E  reason: collision with root package name */
+    public static final int[] f2557E = {193, 201, 211, 218, 220, 252, 8216, 161, 42, 39, 8212, 169, 8480, 8226, 8220, 8221, 192, 194, 199, 200, 202, 203, 235, 206, 207, 239, 212, 217, 249, 219, 171, 187};
+
+    /* renamed from: F  reason: collision with root package name */
+    public static final int[] f2558F = {195, 227, 205, 204, 236, 210, 242, 213, 245, 123, 125, 92, 94, 95, 124, 126, 196, 228, 214, 246, 223, 165, 164, 9474, 197, 229, 216, 248, 9484, 9488, 9492, 9496};
+
+    /* renamed from: G  reason: collision with root package name */
+    public static final boolean[] f2559G = {false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false, true, false, false, true, false, true, true, false, false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false, false, true, true, false, true, false, false, true, false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false, true, false, false, true, false, true, true, false, false, true, true, false, true, false, false, true, false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false, false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false, true, false, false, true, false, true, true, false, false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false, false, true, true, false, true, false, false, true, false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false, false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false, true, false, false, true, false, true, true, false, false, true, true, false, true, false, false, true, false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false, true, false, false, true, false, true, true, false, false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false, false, true, true, false, true, false, false, true, false, true, true, false, true, false, false, true, true, false, false, true, false, true, true, false};
+
+    /* renamed from: h  reason: collision with root package name */
+    public final q f2561h = new q();
+
+    /* renamed from: m  reason: collision with root package name */
+    public final ArrayList f2565m = new ArrayList();
+
+    /* renamed from: n  reason: collision with root package name */
+    public b f2566n = new b(0, 4);
+
+    /* renamed from: w  reason: collision with root package name */
+    public int f2575w = 0;
+
+    /* renamed from: l  reason: collision with root package name */
+    public final long f2564l = 16000000;
+
+    public c(String str, int i7) {
+        int i8;
+        if ("application/x-mp4-cea-608".equals(str)) {
+            i8 = 2;
+        } else {
+            i8 = 3;
+        }
+        this.f2562i = i8;
+        if (i7 != 1) {
+            if (i7 != 2) {
+                if (i7 != 3) {
+                    if (i7 != 4) {
+                        K0.a.A("Cea608Decoder", "Invalid channel. Defaulting to CC1.");
+                        this.f2563k = 0;
+                        this.j = 0;
+                    } else {
+                        this.f2563k = 1;
+                        this.j = 1;
+                    }
+                } else {
+                    this.f2563k = 0;
+                    this.j = 1;
+                }
+            } else {
+                this.f2563k = 1;
+                this.j = 0;
+            }
+        } else {
+            this.f2563k = 0;
+            this.j = 0;
+        }
+        l(0);
+        k();
+        this.f2576x = true;
+        this.f2577y = -9223372036854775807L;
+    }
+
+    @Override // K1.i
+    public final A.c f() {
+        List list = this.f2567o;
+        this.f2568p = list;
+        list.getClass();
+        return new A.c(list, 8);
+    }
+
+    @Override // K1.i, N0.c
+    public final void flush() {
+        super.flush();
+        this.f2567o = null;
+        this.f2568p = null;
+        l(0);
+        this.f2570r = 4;
+        this.f2566n.f2552h = 4;
+        k();
+        this.f2571s = false;
+        this.f2572t = false;
+        this.f2573u = (byte) 0;
+        this.f2574v = (byte) 0;
+        this.f2575w = 0;
+        this.f2576x = true;
+        this.f2577y = -9223372036854775807L;
+    }
+
+    /* JADX WARN: Removed duplicated region for block: B:179:0x0085 A[SYNTHETIC] */
+    /* JADX WARN: Removed duplicated region for block: B:182:0x007e A[SYNTHETIC] */
+    @Override // K1.i
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public final void g(K1.h r15) {
+        /*
+            Method dump skipped, instructions count: 682
+            To view this dump add '--comments-level debug' option
+        */
+        throw new UnsupportedOperationException("Method not decompiled: K1.c.g(K1.h):void");
+    }
+
+    @Override // K1.i, N0.c
+    /* renamed from: h */
+    public final J1.c c() {
+        J1.c cVar;
+        J1.c c8 = super.c();
+        if (c8 != null) {
+            return c8;
+        }
+        long j = this.f2564l;
+        if (j != -9223372036854775807L) {
+            long j8 = this.f2577y;
+            if (j8 != -9223372036854775807L && this.f2625e - j8 >= j && (cVar = (J1.c) this.f2622b.pollFirst()) != null) {
+                this.f2567o = Collections.emptyList();
+                this.f2577y = -9223372036854775807L;
+                A.c f = f();
+                long j9 = this.f2625e;
+                cVar.f3351c = j9;
+                cVar.f2363e = f;
+                cVar.f = j9;
+                return cVar;
+            }
+            return null;
+        }
+        return null;
+    }
+
+    @Override // K1.i
+    public final boolean i() {
+        if (this.f2567o != this.f2568p) {
+            return true;
+        }
+        return false;
+    }
+
+    public final ArrayList j() {
+        ArrayList arrayList = this.f2565m;
+        int size = arrayList.size();
+        ArrayList arrayList2 = new ArrayList(size);
+        int i7 = 2;
+        for (int i8 = 0; i8 < size; i8++) {
+            J0.b c8 = ((b) arrayList.get(i8)).c(Integer.MIN_VALUE);
+            arrayList2.add(c8);
+            if (c8 != null) {
+                i7 = Math.min(i7, c8.f2330i);
+            }
+        }
+        ArrayList arrayList3 = new ArrayList(size);
+        for (int i9 = 0; i9 < size; i9++) {
+            J0.b bVar = (J0.b) arrayList2.get(i9);
+            if (bVar != null) {
+                if (bVar.f2330i != i7) {
+                    bVar = ((b) arrayList.get(i9)).c(i7);
+                    bVar.getClass();
+                }
+                arrayList3.add(bVar);
+            }
+        }
+        return arrayList3;
+    }
+
+    public final void k() {
+        b bVar = this.f2566n;
+        bVar.f2551g = this.f2569q;
+        bVar.f2546a.clear();
+        bVar.f2547b.clear();
+        bVar.f2548c.setLength(0);
+        bVar.f2549d = 15;
+        bVar.f2550e = 0;
+        bVar.f = 0;
+        ArrayList arrayList = this.f2565m;
+        arrayList.clear();
+        arrayList.add(this.f2566n);
+    }
+
+    public final void l(int i7) {
+        int i8 = this.f2569q;
+        if (i8 == i7) {
+            return;
+        }
+        this.f2569q = i7;
+        if (i7 == 3) {
+            int i9 = 0;
+            while (true) {
+                ArrayList arrayList = this.f2565m;
+                if (i9 < arrayList.size()) {
+                    ((b) arrayList.get(i9)).f2551g = i7;
+                    i9++;
+                } else {
+                    return;
+                }
+            }
+        } else {
+            k();
+            if (i8 == 3 || i7 == 1 || i7 == 0) {
+                this.f2567o = Collections.emptyList();
+            }
+        }
+    }
+
+    @Override // K1.i, N0.c
+    public final void release() {
+    }
+}

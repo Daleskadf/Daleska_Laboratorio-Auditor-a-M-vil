@@ -1,0 +1,56 @@
+<extension xmlns="http://ns.adobe.com/air/extension/33.1">
+	<id>com.distriqt.Share</id>
+	<versionNumber>7.6.0</versionNumber>
+	<platforms>
+
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.share.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.share.ShareExtension</initializer>
+				<finalizer>com.distriqt.extension.share.ShareExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM64">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.share.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.share.ShareExtension</initializer>
+				<finalizer>com.distriqt.extension.share.ShareExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.share.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.share.ShareExtension</initializer>
+				<finalizer>com.distriqt.extension.share.ShareExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x64">
+			<applicationDeployment>
+				<nativeLibrary>distriqt.extension.share.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.share.ShareExtension</initializer>
+				<finalizer>com.distriqt.extension.share.ShareExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="iPhone-ARM">
+			<applicationDeployment>
+				<nativeLibrary>libShare.a</nativeLibrary>
+				<initializer>ShareExtInitializer</initializer>
+				<finalizer>ShareExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="iPhone-x86">
+			<applicationDeployment>
+				<nativeLibrary>libShare.a</nativeLibrary>
+				<initializer>ShareExtInitializer</initializer>
+				<finalizer>ShareExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+		
+	</platforms>
+</extension>
+

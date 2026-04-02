@@ -1,0 +1,13 @@
+package com.google.android.recaptcha.internal;
+/* loaded from: classes.dex */
+final class zzly implements zznh {
+    static final zznh zza = new zzly();
+
+    private zzly() {
+    }
+
+    @Override // com.google.android.recaptcha.internal.zznh
+    public final boolean zza(int i7) {
+        return i7 == 0 || i7 == 1 || i7 == 2;
+    }
+}

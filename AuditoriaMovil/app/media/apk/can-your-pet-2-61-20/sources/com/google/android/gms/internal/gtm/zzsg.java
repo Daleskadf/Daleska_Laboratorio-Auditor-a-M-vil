@@ -1,0 +1,11 @@
+package com.google.android.gms.internal.gtm;
+
+import java.io.IOException;
+import java.io.InputStream;
+/* compiled from: com.google.android.gms:play-services-tagmanager-v4-impl@@18.0.4 */
+/* loaded from: classes3.dex */
+public interface zzsg {
+    InputStream zza(String str) throws IOException;
+
+    void zzb();
+}

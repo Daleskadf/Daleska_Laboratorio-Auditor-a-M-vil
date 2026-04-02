@@ -1,0 +1,21 @@
+package com.distriqt.extension.inappbilling.functions;
+
+import com.adobe.fre.FREContext;
+import com.adobe.fre.FREFunction;
+import com.adobe.fre.FREObject;
+import com.distriqt.extension.inappbilling.InAppBillingContext;
+import com.distriqt.extension.inappbilling.events.InAppBillingEvent;
+import com.distriqt.extension.inappbilling.utils.Errors;
+/* loaded from: classes.dex */
+public class ActiveProductsFunction implements FREFunction {
+    @Override // com.adobe.fre.FREFunction
+    public FREObject call(FREContext fREContext, FREObject[] fREObjectArr) {
+        try {
+            InAppBillingContext inAppBillingContext = (InAppBillingContext) fREContext;
+            return FREObject.newObject(inAppBillingContext.v ? InAppBillingEvent.formatProductsForEvent(inAppBillingContext.controller().service().activeProducts()) : "");
+        } catch (Exception e) {
+            Errors.handleException(fREContext, e);
+            return null;
+        }
+    }
+}

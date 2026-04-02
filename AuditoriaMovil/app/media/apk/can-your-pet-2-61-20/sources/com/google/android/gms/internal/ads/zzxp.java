@@ -1,0 +1,27 @@
+package com.google.android.gms.internal.ads;
+/* compiled from: com.google.android.gms:play-services-ads@@23.1.0 */
+/* loaded from: classes3.dex */
+public final class zzxp {
+    public final long zza;
+    public final long zzb;
+
+    public zzxp(long j, long j2) {
+        this.zza = j;
+        this.zzb = j2;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj instanceof zzxp) {
+            zzxp zzxpVar = (zzxp) obj;
+            return this.zza == zzxpVar.zza && this.zzb == zzxpVar.zzb;
+        }
+        return false;
+    }
+
+    public final int hashCode() {
+        return (((int) this.zza) * 31) + ((int) this.zzb);
+    }
+}

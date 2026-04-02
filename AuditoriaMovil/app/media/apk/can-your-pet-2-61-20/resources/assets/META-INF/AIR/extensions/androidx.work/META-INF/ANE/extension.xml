@@ -1,0 +1,41 @@
+<extension xmlns="http://ns.adobe.com/air/extension/33.1">
+	<id>androidx.work</id>
+	<versionNumber>2.9.1</versionNumber>
+	<platforms>
+
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>androidx.work.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.androidx.work.WorkExtension</initializer>
+				<finalizer>com.distriqt.extension.androidx.work.WorkExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM64">
+			<applicationDeployment>
+				<nativeLibrary>androidx.work.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.androidx.work.WorkExtension</initializer>
+				<finalizer>com.distriqt.extension.androidx.work.WorkExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>androidx.work.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.androidx.work.WorkExtension</initializer>
+				<finalizer>com.distriqt.extension.androidx.work.WorkExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x64">
+			<applicationDeployment>
+				<nativeLibrary>androidx.work.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.androidx.work.WorkExtension</initializer>
+				<finalizer>com.distriqt.extension.androidx.work.WorkExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+		
+	</platforms>
+</extension>
+

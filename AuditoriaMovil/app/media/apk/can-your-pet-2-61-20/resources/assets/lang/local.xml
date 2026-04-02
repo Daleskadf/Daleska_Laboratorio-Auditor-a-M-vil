@@ -1,0 +1,938 @@
+﻿<data>
+	<local mode="en">
+		<script index="GameLogic-pet_name1" msg="Stephano"/>
+		<script index="GameLogic-pet_name2" msg="Puffy"/>
+		<script index="GameLogic-pet_name3" msg="Kawaii"/>
+		<script index="GameLogic-pet_name4" msg="Alfredo"/>
+		<script index="GameLogic-pet_name5" msg="Felix"/>
+		<script index="GameLogic-pet_name6" msg="Alex"/>
+		<script index="GameLogic-pet_name7" msg="Grin"/>
+		<script index="GameLogic-pet_name8" msg="Tempura"/>
+		<script index="GameLogic-pet_name9" msg="Scout"/>
+		<script index="GameLogic-pet_name10" msg="Neo"/>
+		<script index="GameLogic-pet_name11" msg="Halo"/>
+		<script index="GameLogic-pet_name12" msg="Crystal"/>
+		<script index="GameLogic-pet_name13" msg="Rio"/>
+		<script index="GameLogic-pet_name14" msg="Pepe"/>
+		<script index="GameLogic-pet_name15" msg="Korri"/>
+		<script index="GameLogic-pet_name16" msg="Coco"/>
+		<script index="GameLogic-pet_name17" msg="Ema"/>
+		<script index="GameLogic-pet_name18" msg="Enola"/>
+		<script index="GameLogic-pet_name19" msg="Max"/>
+		<script index="GameLogic-pet_name20" msg="Buddy"/>
+		<script index="GameLogic-pet_name21" msg="Rocky"/>
+		<script index="GameLogic-pet_name22" msg="Cooper"/>
+		<script index="GameLogic-pet_name23" msg="Duke"/>
+		<script index="GameLogic-pet_name24" msg="Jack"/>
+		<script index="GameLogic-pet_name25" msg="Toby"/>
+		<script index="GameLogic-pet_name26" msg="Bella"/>
+		<script index="GameLogic-pet_name27" msg="Dalsy"/>
+		<script index="GameLogic-pet_name28" msg="Lucy"/>
+		<script index="GameLogic-pet_name29" msg="Molly"/>
+		<script index="GameLogic-pet_name30" msg="Lola"/>
+		<script index="GameLogic-pet_name31" msg="Sophie"/>
+		<script index="GameLogic-pet_name32" msg="Chloe"/>
+		<script index="GameLogic-pet_name33" msg="Nugget"/>
+		<script index="PopAsk-msg1" msg="Do you collect more cans?\nCollect up to 999 Cans! (Reward : [[0]] Can)"/>
+		<script index="PopAsk-msg2" msg="Thank you for playing.\nAre you having fun?\n(Reward : [[0]] Can)"/>
+		<script index="PopAsk-msg3" msg="Try touch the chicks falling from the sky\nThis is gift for you!\n (Reward : [[0]] Chicks)"/>
+		<script index="PopAsk-msg4" msg="Can you recommend a game to a friend?\n(Reward : [[0]] Chicks)"/>
+		<script index="PopAsk-msg5" msg="I love chicken.\nDo you love chicken?\n(Reward : [[0]] Can)"/>
+		<script index="PopAsk-msg6" msg="Can I see you tomorrow?\n'Fever Time' gift for you\n(Reward : Fever Time)"/>
+		<script index="PopAsk-msg7" msg="Sometimes, You can help developer through touch banner.\nDo you know that?(Reward : [[0]] Can)"/>
+		<script index="PopAsk-msg8" msg="If you escape, you can get a lot of keys.\n(Reward : [[0]] Key)"/>
+		<script index="helpdesk" msg="Please tell us your complaints\nWe hope to improve"/>
+		<script index="ShareManager-msg" msg="►I just played a game called #canyourpet and OMG...MOST HEARTBREAKING GAME EVER!"/>
+		<script index="SlotShop-ball" msg="+[[0]] Can/Click"/>
+		<script index="SlotShop-sec" msg="+[[0]] Can/Second"/>
+		<script index="SlotShop-q" msg="+[[0]] Can/Pet"/>
+		<script index="SlotShop-avg" msg="+[[0]] Average"/>
+		<script index="RateManager-title" msg="Can Your Pet!"/>
+		<script index="RateManager-description" msg="Would you mind talking a moment to rate is? It won't take more than a minute. Thanks for your support!"/>
+		<script index="RateManager-rate" msg="Rate 5 Stars"/>
+		<script index="RateManager-later" msg="Ask Me Later"/>
+		<script index="RateManager-dont" msg="Don't ask again"/>
+		<script index="PopPurchase-msg1" msg="Double Cans"/>
+		<script index="PopPurchase-msg2" msg="Double Earnings Rate"/>
+		<script index="PopPurchase-msg3" msg="Get [[0]] instantly"/>
+		<script index="PopPurchase-msg4" msg="Purchase Bonus\nRemove Ads"/>
+		<script index="txt-premium" msg="PREMIUM"/>
+		<script index="GameUI-ending-can" msg="You have earned [[0]] Cans"/>
+		<script index="GameUI-ending2-key" msg="You have earned [[0]] Keys"/>
+		<script index="SlotKeyShop-agg" msg="Premium Egg"/>
+		<script index="SlotKeyShop-factory" msg="Increased production of\nAll Upgrade"/>
+		<script index="SlotKeyShop-sale" msg="Price reduction of\nAll Upgrade"/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="Increase key acquisition permanently"/>
+		<script index="escape-reward" msg="Reward +[[0]] key"/>
+		<script index="escape-title" msg="Escape"/>
+		<script index="escape-title2" msg="Escape!"/>
+		<script index="escape-new_ending" msg="New Ending"/>
+		<script index="notification-fever" msg="Fever is coming...!"/>
+		<script index="notification-d7" msg="Will you remember...me"/>
+		<script index="notification-new" msg="Find a new ending!"/>
+		<script index="notification-nothing" msg="Peep! Pepp! Chick!"/>
+		<script index="notification-saveRetention" msg="[Access Reward] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="Hi, I'm [[0]]\ncame from the future"/>
+	</local>
+	<local mode="ko">
+		<script index="GameLogic-pet_name1" msg="스테파노"/>
+		<script index="GameLogic-pet_name2" msg="뽀삐"/>
+		<script index="GameLogic-pet_name3" msg="너겟"/>
+		<script index="GameLogic-pet_name4" msg="쪼꼬미"/>
+		<script index="GameLogic-pet_name5" msg="아리"/>
+		<script index="GameLogic-pet_name6" msg="알렉스"/>
+		<script index="GameLogic-pet_name7" msg="삐약이"/>
+		<script index="GameLogic-pet_name8" msg="닭튀김"/>
+		<script index="GameLogic-pet_name9" msg="몽땅이"/>
+		<script index="GameLogic-pet_name10" msg="네오"/>
+		<script index="GameLogic-pet_name11" msg="하루"/>
+		<script index="GameLogic-pet_name12" msg="크리스탈"/>
+		<script index="GameLogic-pet_name13" msg="리오"/>
+		<script index="GameLogic-pet_name14" msg="삐삐"/>
+		<script index="GameLogic-pet_name15" msg="초코"/>
+		<script index="GameLogic-pet_name16" msg="코코"/>
+		<script index="GameLogic-pet_name17" msg="아롱이"/>
+		<script index="GameLogic-pet_name18" msg="사랑이"/>
+		<script index="GameLogic-pet_name19" msg="복날이"/>
+		<script index="GameLogic-pet_name20" msg="봄이"/>
+		<script index="GameLogic-pet_name21" msg="순둥이"/>
+		<script index="GameLogic-pet_name22" msg="이슬이"/>
+		<script index="GameLogic-pet_name23" msg="예삐"/>
+		<script index="GameLogic-pet_name24" msg="달콤"/>
+		<script index="GameLogic-pet_name25" msg="후라이드"/>
+		<script index="GameLogic-pet_name26" msg="콩순이"/>
+		<script index="GameLogic-pet_name27" msg="호식이"/>
+		<script index="GameLogic-pet_name28" msg="꼬꼬"/>
+		<script index="GameLogic-pet_name29" msg="양념이"/>
+		<script index="GameLogic-pet_name30" msg="순살이"/>
+		<script index="GameLogic-pet_name31" msg="다롱이"/>
+		<script index="GameLogic-pet_name32" msg="클로이"/>
+		<script index="GameLogic-pet_name33" msg="베로"/>
+		<script index="PopAsk-msg1" msg="더 많은 캔을 모으고 계신가요?\n999캔 까지 모아보세요! (보상 : [[0]] 캔)"/>
+		<script index="PopAsk-msg2" msg="플레이 해주셔서 감사합니다.\n재미있게 하고 계신가요? (보상 : [[0]] 캔)"/>
+		<script index="PopAsk-msg3" msg="당신을 위해 선물로 드릴께요\n하늘에서 떨어지는 병아리를 터치해 보세요.\n(보상 : [[0]] 병아리)"/>
+		<script index="PopAsk-msg4" msg="주변에 친구에게 게임을 추천해 주실 수 있으신가요? (보상 : [[0]] 병아리)"/>
+		<script index="PopAsk-msg5" msg="저는 치느님을 사랑합니다.\n당신도 그러신가요...?\n(보상 : [[0]] 캔)"/>
+		<script index="PopAsk-msg6" msg="내일도 당신을 볼 수 있나요?\n피버타임을 선물로 드립니다.\n(보상 : 피버타임)"/>
+		<script index="PopAsk-msg7" msg="가끔, 배너 광고를 누르면.\n개발자에게 도움이 된다는거 아시나요?\n(보상 : [[0]] 캔)"/>
+		<script index="PopAsk-msg8" msg="탈출을 하면 열쇠를 많이 얻을 수 있습니다.\n(보상 : 1 열쇠)"/>
+		<script index="helpdesk" msg="불편사항을 말씀해 주세요\n개선하도록 노력하겠습니다"/>
+		<script index="ShareManager-msg" msg="나를 '심쿵' 하게 만든 병아리 키우기 게임 #canyourpet"/>
+		<script index="SlotShop-ball" msg="+[[0]] 캔/클릭"/>
+		<script index="SlotShop-sec" msg="+[[0]] 캔/초"/>
+		<script index="SlotShop-q" msg="+[[0]] 캔/펫"/>
+		<script index="SlotShop-avg" msg="+[[0]] 평균"/>
+		<script index="RateManager-title" msg="캔유어펫!"/>
+		<script index="RateManager-description" msg="괜찮으시다면 평가를 부탁드려도 될까요? 1분을 넘지 않을 것 입니다. 당신의 의견을 듣고 싶습니다!"/>
+		<script index="RateManager-rate" msg="별점 5점 평가하기"/>
+		<script index="RateManager-later" msg="다음에 평가하겠습니다"/>
+		<script index="RateManager-dont" msg="평가하지 않겠습니다"/>
+		<script index="PopPurchase-msg1" msg="현재 캔 두배"/>
+		<script index="PopPurchase-msg2" msg="생산량 두배"/>
+		<script index="PopPurchase-msg3" msg="즉시 [[0]] 얻기"/>
+		<script index="PopPurchase-msg4" msg="구매 혜택\n광고제거"/>
+		<script index="txt-premium" msg="프리미엄"/>
+		<script index="GameUI-ending-can" msg="[[0]]개의 캔을 얻었습니다"/>
+		<script index="GameUI-ending2-key" msg="[[0]]개의 열쇠를 얻었습니다"/>
+		<script index="SlotKeyShop-agg" msg="프리미엄 달걀"/>
+		<script index="SlotKeyShop-factory" msg="모든 업그레이드 획득 증가"/>
+		<script index="SlotKeyShop-sale" msg="모든 업그레이드 가격 감소"/>
+		<script index="SlotKeyShop-ball" msg="슈퍼볼"/>
+		<script index="SlotKeyShop-sec" msg="슈퍼 자동생산"/>
+		<script index="SlotKeyShop-premium" msg="슈퍼 프리미엄"/>
+		<script index="SlotShopItem-key" msg="열쇠획득을 영구적으로 증가"/>
+		<script index="escape-reward" msg="보상 +[[0]] 열쇠"/>
+		<script index="escape-title" msg="탈출"/>
+		<script index="escape-title2" msg="탈출하기!"/>
+		<script index="escape-new_ending" msg="새로운 결말"/>
+		<script index="notification-fever" msg="피버타임이 왔닭~!"/>
+		<script index="notification-d7" msg="혹시 저를 잊으셨나요ㅠㅠ"/>
+		<script index="notification-new" msg="또 다른 앤딩을 찾아보세요!"/>
+		<script index="notification-nothing" msg="삐약! 삐약! 병아리!"/>
+		<script index="notification-saveRetention" msg="[접속보상] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="안녕, 나는 미래에서 온\n[[0]] 야"/>
+	</local>
+	<local mode="ja">
+		<script index="GameLogic-pet_name1" msg="そら"/>
+		<script index="GameLogic-pet_name2" msg="レオ"/>
+		<script index="GameLogic-pet_name3" msg="コタロー"/>
+		<script index="GameLogic-pet_name4" msg="マロン"/>
+		<script index="GameLogic-pet_name5" msg="鼻テツ"/>
+		<script index="GameLogic-pet_name6" msg="床"/>
+		<script index="GameLogic-pet_name7" msg="ココ"/>
+		<script index="GameLogic-pet_name8" msg="福"/>
+		<script index="GameLogic-pet_name9" msg="キーン"/>
+		<script index="GameLogic-pet_name10" msg="チョコ"/>
+		<script index="GameLogic-pet_name11" msg="モカ"/>
+		<script index="GameLogic-pet_name12" msg="もも"/>
+		<script index="GameLogic-pet_name13" msg="メイ"/>
+		<script index="GameLogic-pet_name14" msg="姫"/>
+		<script index="GameLogic-pet_name15" msg="か"/>
+		<script index="GameLogic-pet_name16" msg="リン"/>
+		<script index="GameLogic-pet_name17" msg="サクラ"/>
+		<script index="GameLogic-pet_name18" msg="ルナ"/>
+		<script index="GameLogic-pet_name19" msg="ナナ"/>
+		<script index="GameLogic-pet_name20" msg="ミミ"/>
+		<script index="GameLogic-pet_name21" msg="多摩"/>
+		<script index="GameLogic-pet_name22" msg="弁当"/>
+		<script index="GameLogic-pet_name23" msg="ソーセージ"/>
+		<script index="GameLogic-pet_name24" msg="からあげ"/>
+		<script index="GameLogic-pet_name25" msg="つばさ"/>
+		<script index="GameLogic-pet_name26" msg="かわいい"/>
+		<script index="GameLogic-pet_name27" msg="ドキドキ"/>
+		<script index="GameLogic-pet_name28" msg="天ぷら"/>
+		<script index="GameLogic-pet_name29" msg="フリード"/>
+		<script index="GameLogic-pet_name30" msg="ピヤク"/>
+		<script index="GameLogic-pet_name31" msg="ヒヨコ"/>
+		<script index="GameLogic-pet_name32" msg="よちよち"/>
+		<script index="GameLogic-pet_name33" msg="すくすく"/>
+		<script index="PopAsk-msg1" msg="あなたはより多くの缶を収集していますか？\n999缶まで集めよう！(報酬：[[0]] 缶)"/>
+		<script index="PopAsk-msg2" msg="プレイいただきありがとうございます。\n面白くていますか？ (報酬：[[0]]缶)"/>
+		<script index="PopAsk-msg3" msg="空から落ちてくるひよこをタッチしてみてください。\n（報酬：[[0]]ひよこ）"/>
+		<script index="PopAsk-msg4" msg="周辺の友人にゲームをお勧めしていただけるお持ちですか？\n（報酬：[[0]]ひよこ）"/>
+		<script index="PopAsk-msg5" msg="私はかわいいひよこが大好きです。あなたもそうですか？\n（報酬：[[0]]缶）"/>
+		<script index="PopAsk-msg6" msg="明日もあなたを見ることができますか？\nフィーバータイムをプレゼントいたします\n（報酬：フィーバータイム）"/>
+		<script index="PopAsk-msg7" msg="時には、あなたはタッチバナーを通じて開発者を助けることができる。\nこのあなたはそれを知っている？\n（報酬：[[0]]缶）"/>
+		<script index="PopAsk-msg8" msg="脱出をする鍵の多くを得ることができます。\n(報酬：[[0]]鍵)"/>
+		<script index="helpdesk" msg="不便を教えてください\n改善するように努力します"/>
+		<script index="ShareManager-msg" msg="►とおおおおりはだ。ひよこを育てるゲーム #ケンユオペット"/>
+		<script index="SlotShop-ball" msg="クリックの生産量 +[[0]]"/>
+		<script index="SlotShop-sec" msg="毎秒生産量 +[[0]]"/>
+		<script index="SlotShop-q" msg="缶生産量 +[[0]]"/>
+		<script index="SlotShop-avg" msg="平均生産量 +[[0]]"/>
+		<script index="RateManager-title" msg="ケンユオペット!"/>
+		<script index="RateManager-description" msg="よろしければ評価をお願い求めることができる？ 1分を超えないことです。あなたの意見を聞きたいです！"/>
+		<script index="RateManager-rate" msg="評価5点評価する"/>
+		<script index="RateManager-later" msg="次の評価いたします"/>
+		<script index="RateManager-dont" msg="評価しません"/>
+		<script index="PopPurchase-msg1" msg="現在の缶倍増"/>
+		<script index="PopPurchase-msg2" msg="生産量倍増"/>
+		<script index="PopPurchase-msg3" msg="すぐに[[0]]を取得"/>
+		<script index="PopPurchase-msg4" msg="購入特典\n広告の削除"/>
+		<script index="txt-premium" msg="プレミアム"/>
+		<script index="GameUI-ending-can" msg="[[0]]つの缶を獲得しました"/>
+		<script index="GameUI-ending2-key" msg="[[0]]つのキーを獲得しました"/>
+		<script index="SlotKeyShop-agg" msg="プレミアム卵"/>
+		<script index="SlotKeyShop-factory" msg="すべてのアップグレードの獲得増加"/>
+		<script index="SlotKeyShop-sale" msg="すべてのアップグレードの価格低下"/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="鍵取得を永久的に増加"/>
+		<script index="escape-reward" msg="補償+[[0]]キー"/>
+		<script index="escape-title" msg="脱出"/>
+		<script index="escape-title2" msg="脱出!"/>
+		<script index="escape-new_ending" msg="新しい結末"/>
+		<script index="notification-fever" msg="フィーバータイムの!(ﾟ▽ﾟ*)"/>
+		<script index="notification-d7" msg="もしかしたら私を覚えてますか？(′へ｀)"/>
+		<script index="notification-new" msg="別のエンディングを見つけてください！"/>
+		<script index="notification-nothing" msg="ピヨピヨ！ひよこ！"/>
+		<script index="notification-saveRetention" msg="[Access Reward] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="こんにちは、私は未来から来た\n[[0]]よ"/>
+	</local>
+	<local mode="es">
+		<script index="GameLogic-pet_name1" msg="Neron"/>
+		<script index="GameLogic-pet_name2" msg="killer"/>
+		<script index="GameLogic-pet_name3" msg="danger"/>
+		<script index="GameLogic-pet_name4" msg="tigre"/>
+		<script index="GameLogic-pet_name5" msg="tyson"/>
+		<script index="GameLogic-pet_name6" msg="sombra"/>
+		<script index="GameLogic-pet_name7" msg="Bull"/>
+		<script index="GameLogic-pet_name8" msg="Thor"/>
+		<script index="GameLogic-pet_name9" msg="Dingo"/>
+		<script index="GameLogic-pet_name10" msg="Cesar"/>
+		<script index="GameLogic-pet_name11" msg="Aki"/>
+		<script index="GameLogic-pet_name12" msg="Blody"/>
+		<script index="GameLogic-pet_name13" msg="Blacky"/>
+		<script index="GameLogic-pet_name14" msg="Chuby"/>
+		<script index="GameLogic-pet_name15" msg="duty"/>
+		<script index="GameLogic-pet_name16" msg="Dixie"/>
+		<script index="GameLogic-pet_name17" msg="Ely"/>
+		<script index="GameLogic-pet_name18" msg="Fabi"/>
+		<script index="GameLogic-pet_name19" msg="ossy"/>
+		<script index="GameLogic-pet_name20" msg="zuchy"/>
+		<script index="GameLogic-pet_name21" msg="Luna"/>
+		<script index="GameLogic-pet_name22" msg="Lola"/>
+		<script index="GameLogic-pet_name23" msg="kira"/>
+		<script index="GameLogic-pet_name24" msg="Nala"/>
+		<script index="GameLogic-pet_name25" msg="Kiara"/>
+		<script index="GameLogic-pet_name26" msg="Sasha"/>
+		<script index="GameLogic-pet_name27" msg="Candi"/>
+		<script index="GameLogic-pet_name28" msg="Mia"/>
+		<script index="GameLogic-pet_name29" msg="Amis"/>
+		<script index="GameLogic-pet_name30" msg="Budu"/>
+		<script index="GameLogic-pet_name31" msg="Bruts"/>
+		<script index="GameLogic-pet_name32" msg="Coco"/>
+		<script index="GameLogic-pet_name33" msg="Dayo"/>
+		<script index="PopAsk-msg1" msg="Has recolectado mas latas?\nRecolecta 999 latas!\n(Recompemsa : [[0]] Latas)"/>
+		<script index="PopAsk-msg2" msg="Gracias por jugar.\nTe lo estas pasando bien?\n(Recompensa : [[0]] Latas)"/>
+		<script index="PopAsk-msg3" msg="Intenta tocar los pollos que caen del cielo! Esto es un regalo para ti!\n (Recompensa : [[0]] Pollos)"/>
+		<script index="PopAsk-msg4" msg="Puedes recomendar el juego a algun amigo?\n(Recompensa : [[0]] Pollos)"/>
+		<script index="PopAsk-msg5" msg="Amo los pollos.\nTu amas los pollos?\n(Recompensa : [[0]] Latas)"/>
+		<script index="PopAsk-msg6" msg="Te puedo ver mañana?\n'El tiempo de la fiebre te los regala\n(Recompenda : Tiempo de la fiebre)"/>
+		<script index="PopAsk-msg7" msg="A veces, a veces puedes ayudar al desarrollador tocando el cartel.\nTu sabes que es eso?\n(Recompensa : [[0]] Latas)"/>
+		<script index="PopAsk-msg8" msg="Si escapas, puedes ganar muchiiiisimas llaves.\n(Recompensa : [[0]] Llaves)"/>
+		<script index="helpdesk" msg="Por favor, díganos sus quejas\nEsperamos mejorar"/>
+		<script index="ShareManager-msg" msg="►He jugado un juego llamado #canyourpet y OMG...ES EL JUEGL MAS DESGARRADOR QUE HE JUGADO!!!"/>
+		<script index="SlotShop-ball" msg="+[[0]] Latas/Click"/>
+		<script index="SlotShop-sec" msg="+[[0]] Latas/Segundo"/>
+		<script index="SlotShop-q" msg="+[[0]] Latas/Mascota"/>
+		<script index="SlotShop-avg" msg="+[[0]] de promedio"/>
+		<script index="RateManager-title" msg="Can Your Pet!"/>
+		<script index="RateManager-description" msg="No te gustaria hablar un rato sobre la aplicacion valorandola? No te costara mas de un minuto. Gracias por tu ayuda!"/>
+		<script index="RateManager-rate" msg="Valora la app con 5 estrellas"/>
+		<script index="RateManager-later" msg="Preguntamelo luego"/>
+		<script index="RateManager-dont" msg="No vuelvas a preguntar"/>
+		<script index="PopPurchase-msg1" msg="Doble de latas"/>
+		<script index="PopPurchase-msg2" msg="Tasa de ganancias"/>
+		<script index="PopPurchase-msg3" msg="Gana [[0]] instantaneamente"/>
+		<script index="PopPurchase-msg4" msg="Compra un bonus\nQuita los anuncios"/>
+		<script index="txt-premium" msg="PREMIUM"/>
+		<script index="GameUI-ending-can" msg="Has obtenido [[0]] Llaves"/>
+		<script index="GameUI-ending2-key" msg="Has obtenido [[0]] Llaves"/>
+		<script index="SlotKeyShop-agg" msg="Huevo premium"/>
+		<script index="SlotKeyShop-factory" msg="Incrementa la produccion en\nTodas las mejoras"/>
+		<script index="SlotKeyShop-sale" msg="precio de la reduccion en\nTodas las mejoras"/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="Aumentar permanentemente la adquisición de claves"/>
+		<script index="escape-reward" msg="Recompensa +[[0]] llaves"/>
+		<script index="escape-title" msg="Escapa"/>
+		<script index="escape-title2" msg="Escapa!"/>
+		<script index="escape-new_ending" msg="Nueva final"/>
+		<script index="notification-fever" msg="La fiebre esta viniendo...!"/>
+		<script index="notification-d7" msg="Tu me...recuerdas"/>
+		<script index="notification-new" msg="Encuentra un nuevo final!"/>
+		<script index="notification-nothing" msg="Peep! Peep! Bebe pollito!"/>
+		<script index="notification-saveRetention" msg="[Access Reward] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="Hola, soy un [[0]]\nvino del futuro"/>
+	</local>
+	<local mode="zh-cn">
+		<script index="GameLogic-pet_name1" msg="斯泰法诺"/>
+		<script index="GameLogic-pet_name2" msg="宝贝"/>
+		<script index="GameLogic-pet_name3" msg="块快儿"/>
+		<script index="GameLogic-pet_name4" msg="小不点儿"/>
+		<script index="GameLogic-pet_name5" msg="阿丽"/>
+		<script index="GameLogic-pet_name6" msg="阿鲁斯"/>
+		<script index="GameLogic-pet_name7" msg="喳喳儿"/>
+		<script index="GameLogic-pet_name8" msg="炸炸鸡"/>
+		<script index="GameLogic-pet_name9" msg="小魔蛋"/>
+		<script index="GameLogic-pet_name10" msg="雷欧"/>
+		<script index="GameLogic-pet_name11" msg="哈罗"/>
+		<script index="GameLogic-pet_name12" msg="亮晶晶"/>
+		<script index="GameLogic-pet_name13" msg="利欧"/>
+		<script index="GameLogic-pet_name14" msg="菲菲"/>
+		<script index="GameLogic-pet_name15" msg="巧克力"/>
+		<script index="GameLogic-pet_name16" msg="可可"/>
+		<script index="GameLogic-pet_name17" msg="小阿龙"/>
+		<script index="GameLogic-pet_name18" msg="小爱爱"/>
+		<script index="GameLogic-pet_name19" msg="小福娜"/>
+		<script index="GameLogic-pet_name20" msg="小春春"/>
+		<script index="GameLogic-pet_name21" msg="小乖乖"/>
+		<script index="GameLogic-pet_name22" msg="小泪珠"/>
+		<script index="GameLogic-pet_name23" msg="可可爱"/>
+		<script index="GameLogic-pet_name24" msg="甜甜"/>
+		<script index="GameLogic-pet_name25" msg="油炸鸡"/>
+		<script index="GameLogic-pet_name26" msg="纯豆豆"/>
+		<script index="GameLogic-pet_name27" msg="小好食"/>
+		<script index="GameLogic-pet_name28" msg="咕咕"/>
+		<script index="GameLogic-pet_name29" msg="小调味鸡"/>
+		<script index="GameLogic-pet_name30" msg="小无骨"/>
+		<script index="GameLogic-pet_name31" msg="小大龙"/>
+		<script index="GameLogic-pet_name32" msg="可罗伊"/>
+		<script index="GameLogic-pet_name33" msg="白罗"/>
+		<script index="PopAsk-msg1" msg="你收集更多的罐？\n收集到999罐！(送 ：[[0]] 罐)"/>
+		<script index="PopAsk-msg2" msg="感谢您的参加。\n玩得有趣吗？\n（送 ：[[0]] 罐）"/>
+		<script index="PopAsk-msg3" msg="尝试触及从空中落下的小鸡\n这是礼物送给你！\n（送 ：[[0]] 雏）"/>
+		<script index="PopAsk-msg4" msg="您能把这游戏推荐给朋友吗？\n（送 ：[[0]] 雏）"/>
+		<script index="PopAsk-msg5" msg="我爱小鸡。\ns你爱小鸡？\n（送 ：[[0]] 罐）"/>
+		<script index="PopAsk-msg6" msg="我可以看到你的明天？\n'发烧时间'礼物送给你\n（送 ：[[0]] 发热时间）"/>
+		<script index="PopAsk-msg7" msg="偶尔一次，按标题广告能给开发者很多帮助，知道吗？\n（送 ：[[0]] 罐）"/>
+		<script index="PopAsk-msg8" msg="如果你逃避，你可以得到很多的键。\n（送 ：[[0]] 键）"/>
+		<script index="helpdesk" msg="请告诉我们您的投诉\n我们希望改善"/>
+		<script index="ShareManager-msg" msg="►鸡皮疙瘩~ 让我心蹦蹦直跳的养小鸡游戏 #canyourpet"/>
+		<script index="SlotShop-ball" msg="每点击生产量+[[0]]"/>
+		<script index="SlotShop-sec" msg="每秒生产量+[[0]]"/>
+		<script index="SlotShop-q" msg="每宠物生产量+[[0]]"/>
+		<script index="SlotShop-avg" msg="平均生产+[[0]]"/>
+		<script index="RateManager-title" msg="肯有我宠!"/>
+		<script index="RateManager-description" msg="我能请您的评价吗？不会超过一分钟的，我想听您的意见！"/>
+		<script index="RateManager-rate" msg="星星分数 5分 评价"/>
+		<script index="RateManager-later" msg="下一次评价"/>
+		<script index="RateManager-dont" msg="不想评价"/>
+		<script index="PopPurchase-msg1" msg="双罐"/>
+		<script index="PopPurchase-msg2" msg="生产翻番"/>
+		<script index="PopPurchase-msg3" msg="得到[[0]]瞬间"/>
+		<script index="PopPurchase-msg4" msg="购买红利\n删除广告"/>
+		<script index="txt-premium" msg="高等"/>
+		<script index="GameUI-ending-can" msg="你被授予[[0]]罐"/>
+		<script index="GameUI-ending2-key" msg="你被授予[[0]]键"/>
+		<script index="SlotKeyShop-agg" msg="高级蛋"/>
+		<script index="SlotKeyShop-factory" msg="产量增加的所有升级"/>
+		<script index="SlotKeyShop-sale" msg="降价升级所有"/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="永久增加密钥获取"/>
+		<script index="escape-reward" msg="奖励+[[0]]键"/>
+		<script index="escape-title" msg="逃生"/>
+		<script index="escape-title2" msg="逃生!"/>
+		<script index="escape-new_ending" msg="新的结局"/>
+		<script index="notification-fever" msg="发热时间已准备就绪!"/>
+		<script index="notification-d7" msg="你会记得我吗？"/>
+		<script index="notification-new" msg="找到一个新的结局！"/>
+		<script index="notification-nothing" msg="叽! 叽! 小鸡!"/>
+		<script index="notification-saveRetention" msg="[Access Reward] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="Hi, I'm [[0]]\ncame from the future"/>
+	</local>
+	<local mode="pt">
+		<script index="GameLogic-pet_name1" msg="Neron"/>
+		<script index="GameLogic-pet_name2" msg="killer"/>
+		<script index="GameLogic-pet_name3" msg="danger"/>
+		<script index="GameLogic-pet_name4" msg="tigre"/>
+		<script index="GameLogic-pet_name5" msg="tyson"/>
+		<script index="GameLogic-pet_name6" msg="sombra"/>
+		<script index="GameLogic-pet_name7" msg="Bull"/>
+		<script index="GameLogic-pet_name8" msg="Thor"/>
+		<script index="GameLogic-pet_name9" msg="Dingo"/>
+		<script index="GameLogic-pet_name10" msg="Cesar"/>
+		<script index="GameLogic-pet_name11" msg="Aki"/>
+		<script index="GameLogic-pet_name12" msg="Blody"/>
+		<script index="GameLogic-pet_name13" msg="Blacky"/>
+		<script index="GameLogic-pet_name14" msg="Chuby"/>
+		<script index="GameLogic-pet_name15" msg="duty"/>
+		<script index="GameLogic-pet_name16" msg="Dixie"/>
+		<script index="GameLogic-pet_name17" msg="Ely"/>
+		<script index="GameLogic-pet_name18" msg="Fabi"/>
+		<script index="GameLogic-pet_name19" msg="ossy"/>
+		<script index="GameLogic-pet_name20" msg="zuchy"/>
+		<script index="GameLogic-pet_name21" msg="Luna"/>
+		<script index="GameLogic-pet_name22" msg="Lola"/>
+		<script index="GameLogic-pet_name23" msg="kira"/>
+		<script index="GameLogic-pet_name24" msg="Nala"/>
+		<script index="GameLogic-pet_name25" msg="Kiara"/>
+		<script index="GameLogic-pet_name26" msg="Sasha"/>
+		<script index="GameLogic-pet_name27" msg="Candi"/>
+		<script index="GameLogic-pet_name28" msg="Mia"/>
+		<script index="GameLogic-pet_name29" msg="Amis"/>
+		<script index="GameLogic-pet_name30" msg="Budu"/>
+		<script index="GameLogic-pet_name31" msg="Bruts"/>
+		<script index="GameLogic-pet_name32" msg="Coco"/>
+		<script index="GameLogic-pet_name33" msg="Dayo"/>
+		<script index="PopAsk-msg1" msg="Você recolher mais latas?\nRecolher até 999 latas!(Recompensa: [[0]] Can)"/>
+		<script index="PopAsk-msg2" msg="Obrigado por jogar. \nVocês estão se divertindo?\n(Recompensa: [[0]] Can)"/>
+		<script index="PopAsk-msg3" msg="Obter os filhotes que caem do céu\nEste é o presente para você!\n(Recompensa: [[0]] Chicks)"/>
+		<script index="PopAsk-msg4" msg="Você pode me recomendar um jogo a um amigo?\n(Recompensa: [[0]] Chicks)"/>
+		<script index="PopAsk-msg5" msg="Eu amo frango.\nVocê ama a galinha?\n(Recompensa: [[0]] Can)"/>
+		<script index="PopAsk-msg6" msg="Posso te ver amanhã?\nDom 'Fever Time'para você\n(Recompensa: Fever Time)"/>
+		<script index="PopAsk-msg7" msg="Às vezes, você pode ajudar desenvolvedor através do toque banner.\nVocê sabe disso?\n(Recompensa: [[0]] Can)"/>
+		<script index="PopAsk-msg8" msg="Se você fugir, você pode obter um monte de chaves.\n(Recompensa: [[0]] Chave)"/>
+		<script index="helpdesk" msg="Por favor, diga-nos as suas queixas\nEsperamos melhorar"/>
+		<script index="ShareManager-msg" msg="►I só jogou um jogo chamado #canyourpet e OMG ... jogo mais desolador EVER!"/>
+		<script index="SlotShop-ball" msg="+[[0]] Can/Click"/>
+		<script index="SlotShop-sec" msg="+[[0]] Can/Second"/>
+		<script index="SlotShop-q" msg="+[[0]] Can/Pet"/>
+		<script index="SlotShop-avg" msg="+[[0]] Average"/>
+		<script index="RateManager-title" msg="Can Your Pet!"/>
+		<script index="RateManager-description" msg="Importa-se de falar de um momento para avaliar é? Não vai demorar mais de um minuto. Obrigado pelo vosso apoio!"/>
+		<script index="RateManager-rate" msg="Relação de 5 estrelas"/>
+		<script index="RateManager-later" msg="Pergunte-me mais tarde"/>
+		<script index="RateManager-dont" msg="Não perguntar novamente"/>
+		<script index="PopPurchase-msg1" msg="Latas de casal"/>
+		<script index="PopPurchase-msg2" msg="Lucro casal Tarifa"/>
+		<script index="PopPurchase-msg3" msg="Obter [[0]] instantaneamente"/>
+		<script index="PopPurchase-msg4" msg="Compra Bonus\nRemover anúncios"/>
+		<script index="txt-premium" msg="PREMIUM"/>
+		<script index="GameUI-ending-can" msg="Você ganhou [[0]] latas"/>
+		<script index="GameUI-ending2-key" msg="Você ganhou [[0]] chave"/>
+		<script index="SlotKeyShop-agg" msg="Premium Ovo"/>
+		<script index="SlotKeyShop-factory" msg="Aumento da produção de\nTodos Atualização"/>
+		<script index="SlotKeyShop-sale" msg="redução de preços de\nTodos Atualização"/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="Aumentar permanentemente a aquisição de chaves"/>
+		<script index="escape-reward" msg="Recompensa + [[0]] chave"/>
+		<script index="escape-title" msg="Escapar"/>
+		<script index="escape-title2" msg="Escapar!"/>
+		<script index="escape-new_ending" msg="novo final"/>
+		<script index="notification-fever" msg="Febre Tempo está pronto!"/>
+		<script index="notification-d7" msg="você vai lembrar de mim?"/>
+		<script index="notification-new" msg="Encontrar um novo final!"/>
+		<script index="notification-nothing" msg="Pyu! Pyu! Pintinho!"/>
+		<script index="notification-saveRetention" msg="[Access Reward] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="Hi, I'm [[0]]\ncame from the future"/>
+	</local>
+	<local mode="fr">
+		<script index="GameLogic-pet_name1" msg="Stephano"/>
+		<script index="GameLogic-pet_name2" msg="Puffy"/>
+		<script index="GameLogic-pet_name3" msg="Kawaii"/>
+		<script index="GameLogic-pet_name4" msg="Alfredo"/>
+		<script index="GameLogic-pet_name5" msg="Felix"/>
+		<script index="GameLogic-pet_name6" msg="Alex"/>
+		<script index="GameLogic-pet_name7" msg="Grin"/>
+		<script index="GameLogic-pet_name8" msg="Tempura"/>
+		<script index="GameLogic-pet_name9" msg="Scout"/>
+		<script index="GameLogic-pet_name10" msg="Neo"/>
+		<script index="GameLogic-pet_name11" msg="Halo"/>
+		<script index="GameLogic-pet_name12" msg="Crystal"/>
+		<script index="GameLogic-pet_name13" msg="Rio"/>
+		<script index="GameLogic-pet_name14" msg="Pepe"/>
+		<script index="GameLogic-pet_name15" msg="Korri"/>
+		<script index="GameLogic-pet_name16" msg="Coco"/>
+		<script index="GameLogic-pet_name17" msg="Ema"/>
+		<script index="GameLogic-pet_name18" msg="Enola"/>
+		<script index="GameLogic-pet_name19" msg="Max"/>
+		<script index="GameLogic-pet_name20" msg="Buddy"/>
+		<script index="GameLogic-pet_name21" msg="Rocky"/>
+		<script index="GameLogic-pet_name22" msg="Cooper"/>
+		<script index="GameLogic-pet_name23" msg="Duke"/>
+		<script index="GameLogic-pet_name24" msg="Jack"/>
+		<script index="GameLogic-pet_name25" msg="Toby"/>
+		<script index="GameLogic-pet_name26" msg="Bella"/>
+		<script index="GameLogic-pet_name27" msg="Dalsy"/>
+		<script index="GameLogic-pet_name28" msg="Lucy"/>
+		<script index="GameLogic-pet_name29" msg="Molly"/>
+		<script index="GameLogic-pet_name30" msg="Lola"/>
+		<script index="GameLogic-pet_name31" msg="Sophie"/>
+		<script index="GameLogic-pet_name32" msg="Chloe"/>
+		<script index="GameLogic-pet_name33" msg="Nugget"/>
+		<script index="PopAsk-msg1" msg="Collectionnez-vous plus de canettes?\nCollectez jusqu'à 999 canettes!\n(Récompense : [[0]] Canettes)"/>
+		<script index="PopAsk-msg2" msg="Merci d'avoir joué.\nVous vous amusez?\n(Récompense : [[0]] Canette)"/>
+		<script index="PopAsk-msg3" msg="Essayez de toucher les poussins tombant du ciel.\nCeci est un cadeau pour vous!\n (Récompense : [[0]] Poussins)"/>
+		<script index="PopAsk-msg4" msg="Pouvez vous recommander le jeu à un ami ?\n(Récompense : [[0]] Poussins)"/>
+		<script index="PopAsk-msg5" msg="J'aime le poulet.\nVous aimez le poulet?\n(Récompense : [[0]] Canettes)"/>
+		<script index="PopAsk-msg6" msg="Peut-on se voir demain?\nUn cadeau 'Fever Time' pour vous\n(Récompense : Fever Time)"/>
+		<script index="PopAsk-msg7" msg="Des fois, Vous pouvez aider le développeur en touchant les bannières.\nLe saviez vous?(Récompense : [[0]] Canettes)"/>
+		<script index="PopAsk-msg8" msg="Si vous vous échappez, vous pouvez obtenir plein de clés.\n(Récompense : [[0]] Clé)"/>
+		<script index="helpdesk" msg="S'il vous plaît dites-nous vos plaintes\nNous espérons améliorer"/>
+		<script index="ShareManager-msg" msg="►Je viens juste de jouer à un jeu nommé #canyourpet et OMG…C'EST LE JEU QUI M'A LE PLUS BRISÉ LE CŒUR!"/>
+		<script index="SlotShop-ball" msg="+[[0]] Canettes/Clics"/>
+		<script index="SlotShop-sec" msg="+[[0]] Canettes/Secondes"/>
+		<script index="SlotShop-q" msg="+[[0]] Canettes/Animal"/>
+		<script index="SlotShop-avg" msg="+[[0]] Moyenne"/>
+		<script index="RateManager-title" msg="Can Your Pet!"/>
+		<script index="RateManager-description" msg="Cela vous dérange t-il de prendre un moment pour évaluer le jeu? Cela ne prendra qu'une minute. Merci de votre soutien!"/>
+		<script index="RateManager-rate" msg="Notez 5 étoiles"/>
+		<script index="RateManager-later" msg="Demandez moi plus tard"/>
+		<script index="RateManager-dont" msg="Ne me demandez plus jamais"/>
+		<script index="PopPurchase-msg1" msg="Double les canettes"/>
+		<script index="PopPurchase-msg2" msg="Double le taux de gains"/>
+		<script index="PopPurchase-msg3" msg="Obtenez [[0]] instantanément"/>
+		<script index="PopPurchase-msg4" msg="Achat Bonus\nSupprimez la pub"/>
+		<script index="txt-premium" msg="PREMIUM"/>
+		<script index="GameUI-ending-can" msg="Vous avez obtenus [[0]] Canettes"/>
+		<script index="GameUI-ending2-key" msg="Vous avez obtenus [[0]] Clés"/>
+		<script index="SlotKeyShop-agg" msg="Œuf Premium"/>
+		<script index="SlotKeyShop-factory" msg="Production amélioré de\nTout les upgrades"/>
+		<script index="SlotKeyShop-sale" msg="Prix réduit de\nTout les upgrades"/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="Augmenter l'acquisition des clés de façon permanente"/>
+		<script index="escape-reward" msg="Récompense +[[0]] clés"/>
+		<script index="escape-title" msg="S'échapper"/>
+		<script index="escape-title2" msg="S'échapper!"/>
+		<script index="escape-new_ending" msg="Nouvelle fin"/>
+		<script index="notification-fever" msg="Fever time en approche...!"/>
+		<script index="notification-d7" msg="Vous souviendrez vous de...moi?"/>
+		<script index="notification-new" msg="Trouvez une nouvelle fin!"/>
+		<script index="notification-nothing" msg="Piou! Piou! Bébé poussin!"/>
+		<script index="notification-saveRetention" msg="[Access Reward] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="Salut, je suis [[0]]\nvenu du futur"/>
+	</local>
+	<local mode="ru">
+		<script index="GameLogic-pet_name1" msg="Stephano"/>
+		<script index="GameLogic-pet_name2" msg="Puffy"/>
+		<script index="GameLogic-pet_name3" msg="Kawaii"/>
+		<script index="GameLogic-pet_name4" msg="Alfredo"/>
+		<script index="GameLogic-pet_name5" msg="Felix"/>
+		<script index="GameLogic-pet_name6" msg="Alex"/>
+		<script index="GameLogic-pet_name7" msg="Grin"/>
+		<script index="GameLogic-pet_name8" msg="Tempura"/>
+		<script index="GameLogic-pet_name9" msg="Scout"/>
+		<script index="GameLogic-pet_name10" msg="Neo"/>
+		<script index="GameLogic-pet_name11" msg="Halo"/>
+		<script index="GameLogic-pet_name12" msg="Crystal"/>
+		<script index="GameLogic-pet_name13" msg="Rio"/>
+		<script index="GameLogic-pet_name14" msg="Pepe"/>
+		<script index="GameLogic-pet_name15" msg="Korri"/>
+		<script index="GameLogic-pet_name16" msg="Coco"/>
+		<script index="GameLogic-pet_name17" msg="Ema"/>
+		<script index="GameLogic-pet_name18" msg="Enola"/>
+		<script index="GameLogic-pet_name19" msg="Max"/>
+		<script index="GameLogic-pet_name20" msg="Buddy"/>
+		<script index="GameLogic-pet_name21" msg="Rocky"/>
+		<script index="GameLogic-pet_name22" msg="Cooper"/>
+		<script index="GameLogic-pet_name23" msg="Duke"/>
+		<script index="GameLogic-pet_name24" msg="Jack"/>
+		<script index="GameLogic-pet_name25" msg="Toby"/>
+		<script index="GameLogic-pet_name26" msg="Bella"/>
+		<script index="GameLogic-pet_name27" msg="Dalsy"/>
+		<script index="GameLogic-pet_name28" msg="Lucy"/>
+		<script index="GameLogic-pet_name29" msg="Molly"/>
+		<script index="GameLogic-pet_name30" msg="Lola"/>
+		<script index="GameLogic-pet_name31" msg="Sophie"/>
+		<script index="GameLogic-pet_name32" msg="Chloe"/>
+		<script index="GameLogic-pet_name33" msg="Nugget"/>
+		<script index="PopAsk-msg1" msg="Есть ли собрать больше банок?\nСоберите до 999 банок!(Награда : [[0]] Консервы)"/>
+		<script index="PopAsk-msg2" msg="Спасибо за игру.\nВесело ли тебе?\n(Награда : [[0]] Консервы)"/>
+		<script index="PopAsk-msg3" msg="Попробуйте коснуться птенцов, падающие с неба\nЭто подарок для вас!\n(Награда : [[0]] Птенцы)"/>
+		<script index="PopAsk-msg4" msg="Можете ли вы порекомендовать игру другу?\n(Награда : [[0]] Птенцы)"/>
+		<script index="PopAsk-msg5" msg="Я люблю курицу.\nВы любите курицу?\n(Награда : [[0]] Консервы)"/>
+		<script index="PopAsk-msg6" msg="Могу ли я увидеть тебя завтра?\n'Лихорадка Время' подарок для вас\n(Награда : Лихорадка Время)"/>
+		<script index="PopAsk-msg7" msg="иногда, Вы можете помочь разработчику через сенсорный баннер.\nВы это знаете?(Награда : [[0]] Консервы)"/>
+		<script index="PopAsk-msg8" msg="Если вы убегаете, вы можете получить много ключей.\n(Награда : [[0]] ключ)"/>
+		<script index="helpdesk" msg="Пожалуйста, сообщите нам ваши жалобы\nМы надеемся улучшить"/>
+		<script index="ShareManager-msg" msg="►Я просто играл в игру #canyourpet и OMG ... самых душераздирающих игра когда-либо!"/>
+		<script index="SlotShop-ball" msg="+[[0]] Консервы/коснуться"/>
+		<script index="SlotShop-sec" msg="+[[0]] Консервы/секунда"/>
+		<script index="SlotShop-q" msg="+[[0]] Консервы/питомец"/>
+		<script index="SlotShop-avg" msg="+[[0]] В среднем"/>
+		<script index="RateManager-title" msg="может Ваш питомец!"/>
+		<script index="RateManager-description" msg="Не могли бы вы говорить момент, чтобы оценить это? Это не займет больше минуты. Спасибо за поддержку!"/>
+		<script index="RateManager-rate" msg="Оценить 5 звезд"/>
+		<script index="RateManager-later" msg="Спроси меня позже"/>
+		<script index="RateManager-dont" msg="Больше не спрашивать"/>
+		<script index="PopPurchase-msg1" msg="Двойные Консервы"/>
+		<script index="PopPurchase-msg2" msg="Двойные Прибыль Оценить"/>
+		<script index="PopPurchase-msg3" msg="добавить [[0]] мгновенно"/>
+		<script index="PopPurchase-msg4" msg="Покупка Бонус\nУбрать рекламу"/>
+		<script index="txt-premium" msg="ПРЕМИУМ"/>
+		<script index="GameUI-ending-can" msg="Вы заслужили [[0]] Монеты"/>
+		<script index="GameUI-ending2-key" msg="Вы заслужили [[0]] Ключи"/>
+		<script index="SlotKeyShop-agg" msg="Премиум яйцо"/>
+		<script index="SlotKeyShop-factory" msg="Увеличение производства\nвсех обновления"/>
+		<script index="SlotKeyShop-sale" msg="снижение цены\nВсе обновления"/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="Увеличение ключа приобретение на постоянной основе"/>
+		<script index="escape-reward" msg="Награда +[[0]] Ключи"/>
+		<script index="escape-title" msg="Побег"/>
+		<script index="escape-title2" msg="Побег!"/>
+		<script index="escape-new_ending" msg="Новый Окончание"/>
+		<script index="notification-fever" msg="Лихорадка приходит...!"/>
+		<script index="notification-d7" msg="Будете ли вы меня помните?"/>
+		<script index="notification-new" msg="Найти новый конец!"/>
+		<script index="notification-nothing" msg="Писк! Писк! Цыпленок!"/>
+		<script index="notification-saveRetention" msg="[Access Reward] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="Hi, I'm [[0]]\ncame from the future"/>
+	</local>
+	<local mode="th">
+		<script index="GameLogic-pet_name1" msg="เจี๊ยบ"/>
+		<script index="GameLogic-pet_name2" msg="ความน่ารัก"/>
+		<script index="GameLogic-pet_name3" msg="ไก่"/>
+		<script index="GameLogic-pet_name4" msg="ลูกกวาด"/>
+		<script index="GameLogic-pet_name5" msg="เดือน"/>
+		<script index="GameLogic-pet_name6" msg="กุ้งก"/>
+		<script index="GameLogic-pet_name7" msg="สีเหลือง"/>
+		<script index="GameLogic-pet_name8" msg="นกน้อย"/>
+		<script index="GameLogic-pet_name9" msg="วัน"/>
+		<script index="GameLogic-pet_name10" msg="ช็อคโก"/>
+		<script index="GameLogic-pet_name11" msg="สวัสดี"/>
+		<script index="GameLogic-pet_name12" msg="หวานหวาน"/>
+		<script index="GameLogic-pet_name13" msg="ไปยัง"/>
+		<script index="GameLogic-pet_name14" msg="ต้มยำ"/>
+		<script index="GameLogic-pet_name15" msg="ก๋วยเตี๋ยว"/>
+		<script index="GameLogic-pet_name16" msg="ส้มตำ"/>
+		<script index="GameLogic-pet_name17" msg="ปูผัดผงกะหรี่"/>
+		<script index="GameLogic-pet_name18" msg="ผู้ชาย "/>
+		<script index="GameLogic-pet_name19" msg="กรุงเทพมหานคร"/>
+		<script index="GameLogic-pet_name20" msg="อัจฉราณ์"/>
+		<script index="GameLogic-pet_name21" msg="เซ็กซี่"/>
+		<script index="GameLogic-pet_name22" msg="เจี๊ยบ"/>
+		<script index="GameLogic-pet_name23" msg="ความน่ารัก"/>
+		<script index="GameLogic-pet_name24" msg="ลูกกวาด"/>
+		<script index="GameLogic-pet_name25" msg="กุ้งก"/>
+		<script index="GameLogic-pet_name26" msg="สีเหลือง"/>
+		<script index="GameLogic-pet_name27" msg="ช็อคโก"/>
+		<script index="GameLogic-pet_name28" msg="สวัสดี"/>
+		<script index="GameLogic-pet_name29" msg="หวานหวาน"/>
+		<script index="GameLogic-pet_name30" msg="ไปยัง"/>
+		<script index="GameLogic-pet_name31" msg="ต้มยำ"/>
+		<script index="GameLogic-pet_name32" msg="ก๋วยเตี๋ยว"/>
+		<script index="GameLogic-pet_name33" msg="ปูผัดผงกะหรี่"/>
+		<script index="PopAsk-msg1" msg="คุณไม่เก็บกระป๋องมากขึ้น?\nเก็บได้ถึง 999 กระป๋อง!(รางวัล : [[0]]  เครื่องกระป๋อง)"/>
+		<script index="PopAsk-msg2" msg="ขอบคุณสำหรับการเล่น.\nคุณสนุกไหม?\n(รางวัล : [[0]]  เครื่องกระป๋อง)"/>
+		<script index="PopAsk-msg3" msg="ลองสัมผัสไก่ลดลงมาจากฟากฟ้า\nนี่คือของขวัญสำหรับคุณ!\n (รางวัล : [[0]] ลูกไก่)"/>
+		<script index="PopAsk-msg4" msg="คุณสามารถแนะนำเกมให้เพื่อน?\n(รางวัล : [[0]] ลูกไก่)"/>
+		<script index="PopAsk-msg5" msg="ผมรักไก่\nคุณรักไก่?n(รางวัล : [[0]] เครื่องกระป๋อง)"/>
+		<script index="PopAsk-msg6" msg="ฉันเจอคุณพรุ่งนี้ได้ไหม?\nของขวัญ 'ไข้เวลา' สำหรับคุณ\n(รางวัล : ไข้เวลา)"/>
+		<script index="PopAsk-msg7" msg="บางครั้งคุณสามารถช่วยให้นักพัฒนาซอฟต์แวร์ผ่านแบนเนอร์สัมผัส\nคุณรู้หรือไม่ว่า?(รางวัล : [[0]] เครื่องกระป๋อง)"/>
+		<script index="PopAsk-msg8" msg="ถ้าคุณหนีคุณจะได้รับมากของคีย์\n(รางวัล : [[0]] สำคัญ)"/>
+		<script index="helpdesk" msg="กรุณาบอกให้เราทราบข้อร้องเรียนของคุณ\nเราหวังว่าจะปรับปรุง"/>
+		<script index="ShareManager-msg" msg="► เจี๊ยบ เติบโต? #canyourpet"/>
+		<script index="SlotShop-ball" msg="+[[0]] เครื่องกระป๋อง/คลิก"/>
+		<script index="SlotShop-sec" msg="+[[0]] เครื่องกระป๋อง/วินาที"/>
+		<script index="SlotShop-q" msg="+[[0]] เครื่องกระป๋อง/สัตว์เลี้ยง"/>
+		<script index="SlotShop-avg" msg="+[[0]] เฉลี่ย"/>
+		<script index="RateManager-title" msg="เจี๊ยบ เติบโต"/>
+		<script index="RateManager-description" msg="คุณจะคิดสละเวลาสักครู่เพื่อประเมินเป็น?ขอบคุณสำหรับการสนับสนุน!"/>
+		<script index="RateManager-rate" msg="5 ดาว"/>
+		<script index="RateManager-later" msg="ถามฉันในภายหลัง"/>
+		<script index="RateManager-dont" msg="ไม่ต้องถามอีก"/>
+		<script index="PopPurchase-msg1" msg="กระป๋องดับเบิล"/>
+		<script index="PopPurchase-msg2" msg="กำไรดับเบิล"/>
+		<script index="PopPurchase-msg3" msg="รับ [[0]] ทันที"/>
+		<script index="PopPurchase-msg4" msg="โบนัสซื้อ\nลบโฆษณา"/>
+		<script index="txt-premium" msg="พรีเมี่ยม"/>
+		<script index="GameUI-ending-can" msg="คุณได้รับ [[0]] เหรียญ"/>
+		<script index="GameUI-ending2-key" msg="คุณได้รับ [[0]] คีย์"/>
+		<script index="SlotKeyShop-agg" msg="ไข่พรีเมี่ยม"/>
+		<script index="SlotKeyShop-factory" msg="การผลิตที่เพิ่มขึ้นของการอัพเกรดทั้งหมด"/>
+		<script index="SlotKeyShop-sale" msg="การลดราคาของการอัพเกรดทั้งหมด"/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="เพิ่มการเข้าซื้อกิจการที่สำคัญอย่างถาวร"/>
+		<script index="escape-reward" msg="รางวัล + [[0]] ที่สำคัญ"/>
+		<script index="escape-title" msg="หลบหนี"/>
+		<script index="escape-title2" msg="หลบหนี!"/>
+		<script index="escape-new_ending" msg="ใหม่ สิ้นสุด"/>
+		<script index="notification-fever" msg="ของขวัญที่กำลังจะมาถึง...!"/>
+		<script index="notification-d7" msg="คุณจะจำผมได้ไหม"/>
+		<script index="notification-new" msg="หาตอนจบใหม่!"/>
+		<script index="notification-nothing" msg="จิ๊บ ๆ! เจี๊ยบ!"/>
+		<script index="notification-saveRetention" msg="[Access Reward] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="Hi, I'm [[0]]\ncame from the future"/>
+	</local>
+	<local mode="pl">
+		<script index="GameLogic-pet_name1" msg="Stephano"/>
+		<script index="GameLogic-pet_name2" msg="Puffy"/>
+		<script index="GameLogic-pet_name3" msg="Kawaii"/>
+		<script index="GameLogic-pet_name4" msg="Alfredo"/>
+		<script index="GameLogic-pet_name5" msg="Felix"/>
+		<script index="GameLogic-pet_name6" msg="Alex"/>
+		<script index="GameLogic-pet_name7" msg="Grin"/>
+		<script index="GameLogic-pet_name8" msg="Tempura"/>
+		<script index="GameLogic-pet_name9" msg="Scout"/>
+		<script index="GameLogic-pet_name10" msg="Neo"/>
+		<script index="GameLogic-pet_name11" msg="Halo"/>
+		<script index="GameLogic-pet_name12" msg="Crystal"/>
+		<script index="GameLogic-pet_name13" msg="Rio"/>
+		<script index="GameLogic-pet_name14" msg="Pepe"/>
+		<script index="GameLogic-pet_name15" msg="Korri"/>
+		<script index="GameLogic-pet_name16" msg="Coco"/>
+		<script index="GameLogic-pet_name17" msg="Ema"/>
+		<script index="GameLogic-pet_name18" msg="Enola"/>
+		<script index="GameLogic-pet_name19" msg="Max"/>
+		<script index="GameLogic-pet_name20" msg="Buddy"/>
+		<script index="GameLogic-pet_name21" msg="Rocky"/>
+		<script index="GameLogic-pet_name22" msg="Cooper"/>
+		<script index="GameLogic-pet_name23" msg="Duke"/>
+		<script index="GameLogic-pet_name24" msg="Jack"/>
+		<script index="GameLogic-pet_name25" msg="Toby"/>
+		<script index="GameLogic-pet_name26" msg="Bella"/>
+		<script index="GameLogic-pet_name27" msg="Dalsy"/>
+		<script index="GameLogic-pet_name28" msg="Lucy"/>
+		<script index="GameLogic-pet_name29" msg="Molly"/>
+		<script index="GameLogic-pet_name30" msg="Lola"/>
+		<script index="GameLogic-pet_name31" msg="Sophie"/>
+		<script index="GameLogic-pet_name32" msg="Chloe"/>
+		<script index="GameLogic-pet_name33" msg="Nugget"/>
+		<script index="PopAsk-msg1" msg="Czy zbierasz więcej puszek?\nZbierz maksymalnie 999 puszek! (Nagroda : [[0]] Puszek)"/>
+		<script index="PopAsk-msg2" msg="Dzięki za granie w to!\nCzy lubisz tą grę?\n(Nagroda : [[0]] Puszek)"/>
+		<script index="PopAsk-msg3" msg="Spróbuj klikać w kurczata spadające z nieba!\nTo jest prezent dla ciebie!\n (Nagroda : [[0]] Kurcząt)"/>
+		<script index="PopAsk-msg4" msg="Możesz to polecić znajomemu?\n(Nagroda : [[0]] Kurcząt)"/>
+		<script index="PopAsk-msg5" msg="Kocham kurczaki.\nCzy ty kochasz kurczaki?\n(Nagroda : [[0]] Puszek)"/>
+		<script index="PopAsk-msg6" msg="Mogę cię zobaczyć pózniej?\n'Czas gorączki' Prezent dla ciebie.\n(Nagroda : Czas gorączki)"/>
+		<script index="PopAsk-msg7" msg="Sometimes, You can help developer through touch banner.\nDo you know that?(Reward : [[0]] Can)"/>
+		<script index="PopAsk-msg8" msg="Gdy uciekniesz, możesz dostać mnóstwo kluczy.\n(Nagroda : [[0]] Kluczy)"/>
+		<script index="helpdesk" msg="Poinformuj nas o tym co nie lubisz w tej grze.\nMamy nadzieję, że się poprawimy."/>
+		<script index="ShareManager-msg" msg="►Poprostu zagrałem w grę #canyourpet i OMG...NAJBARDZIEJ BOLESNA GRA ŚWIATA!"/>
+		<script index="SlotShop-ball" msg="+[[0]] Puszek/Klik"/>
+		<script index="SlotShop-sec" msg="+[[0]] Puszek/Sekundę"/>
+		<script index="SlotShop-q" msg="+[[0]] Puszek/Kurczątko"/>
+		<script index="SlotShop-avg" msg="+[[0]] Średnie"/>
+		<script index="RateManager-title" msg="Can Your Pet!"/>
+		<script index="RateManager-description" msg="Czy mógłbyś ocenić? To potrwa mniej niż minutę. Dzięki za pomoc!"/>
+		<script index="RateManager-rate" msg="Oceń 5 gwiazdek."/>
+		<script index="RateManager-later" msg="Zapytaj mnie pózniej."/>
+		<script index="RateManager-dont" msg="Nigdy mnie nie pytaj."/>
+		<script index="PopPurchase-msg1" msg="Podwój puszki."/>
+		<script index="PopPurchase-msg2" msg="Podwójne zarobki"/>
+		<script index="PopPurchase-msg3" msg="Zdobądz [[0]] Natychmiast"/>
+		<script index="PopPurchase-msg4" msg="Kup bonus.\nUsuń reklamy"/>
+		<script index="txt-premium" msg="PREMIUM"/>
+		<script index="GameUI-ending-can" msg="Zdobyłeś [[0]] Puszek"/>
+		<script index="GameUI-ending2-key" msg="Zdobyłeś [[0]] Kluczy"/>
+		<script index="SlotKeyShop-agg" msg="Jajko premium"/>
+		<script index="SlotKeyShop-factory" msg="Zwiększ produkcję\nWszystkich ulepszeń."/>
+		<script index="SlotKeyShop-sale" msg="Zmniejsz koszt\nWszystkich ulepszeń."/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="Increase key acquisition permanently"/>
+		<script index="escape-reward" msg="Nagroda +[[0]] Kluczy"/>
+		<script index="escape-title" msg="Ucieknij"/>
+		<script index="escape-title2" msg="Ucieknij!"/>
+		<script index="escape-new_ending" msg="Nowy koniec"/>
+		<script index="notification-fever" msg="Gorączka nadchodzi...!"/>
+		<script index="notification-d7" msg="Czy zapamiętasz...mnie"/>
+		<script index="notification-new" msg="Znaleziono nowy koniec!"/>
+		<script index="notification-nothing" msg="Ćwir! Ćwir! Małe kurczątko!"/>
+		<script index="notification-saveRetention" msg="[Dostęp Nagroda] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="Cześć, jestem [[0]]\nz przyszłości."/>
+	</local>
+	<local mode="id">
+		<script index="GameLogic-pet_name1" msg="Stephano"/>
+		<script index="GameLogic-pet_name2" msg="Puffy"/>
+		<script index="GameLogic-pet_name3" msg="Kawaii"/>
+		<script index="GameLogic-pet_name4" msg="Alfredo"/>
+		<script index="GameLogic-pet_name5" msg="Felix"/>
+		<script index="GameLogic-pet_name6" msg="Alex"/>
+		<script index="GameLogic-pet_name7" msg="Grin"/>
+		<script index="GameLogic-pet_name8" msg="Tempura"/>
+		<script index="GameLogic-pet_name9" msg="Scout"/>
+		<script index="GameLogic-pet_name10" msg="Neo"/>
+		<script index="GameLogic-pet_name11" msg="Halo"/>
+		<script index="GameLogic-pet_name12" msg="Crystal"/>
+		<script index="GameLogic-pet_name13" msg="Rio"/>
+		<script index="GameLogic-pet_name14" msg="Pepe"/>
+		<script index="GameLogic-pet_name15" msg="Korri"/>
+		<script index="GameLogic-pet_name16" msg="Coco"/>
+		<script index="GameLogic-pet_name17" msg="Ema"/>
+		<script index="GameLogic-pet_name18" msg="Enola"/>
+		<script index="GameLogic-pet_name19" msg="Max"/>
+		<script index="GameLogic-pet_name20" msg="Buddy"/>
+		<script index="GameLogic-pet_name21" msg="Rocky"/>
+		<script index="GameLogic-pet_name22" msg="Cooper"/>
+		<script index="GameLogic-pet_name23" msg="Duke"/>
+		<script index="GameLogic-pet_name24" msg="Jack"/>
+		<script index="GameLogic-pet_name25" msg="Toby"/>
+		<script index="GameLogic-pet_name26" msg="Bella"/>
+		<script index="GameLogic-pet_name27" msg="Dalsy"/>
+		<script index="GameLogic-pet_name28" msg="Lucy"/>
+		<script index="GameLogic-pet_name29" msg="Molly"/>
+		<script index="GameLogic-pet_name30" msg="Lola"/>
+		<script index="GameLogic-pet_name31" msg="Sophie"/>
+		<script index="GameLogic-pet_name32" msg="Chloe"/>
+		<script index="GameLogic-pet_name33" msg="Nugget"/>
+		<script index="PopAsk-msg1" msg="Apakah kamu ingin mengumpulkan banyak kaleng?\nAyo kumpulkan sampai 999 kaleng ke atas! (Mendapatkan : [[0]] Kaleng)"/>
+		<script index="PopAsk-msg2" msg="Terima kasih telah bermain.\nApakah kamu menikmatinya?\n(Mendapatkan : [[0]] Kaleng)"/>
+		<script index="PopAsk-msg3" msg="Mencoba untuk menyentuh anak ayam jatuh dari langit\nHadiah ini untuk kamu!\n (Mendapatkan : [[0]] Anak Ayam)"/>
+		<script index="PopAsk-msg4" msg="Dapatkah kamu memberitahu game ini kepada temanmu?\n(Mendapatkan : [[0]] Anak Ayam)"/>
+		<script index="PopAsk-msg5" msg="Aku suka ayam.\nApakah kamu menyukai ayam?\n(Mendapatkan : [[0]] Bisa)"/>
+		<script index="PopAsk-msg6" msg="Bisakah aku melihatmu besok?\nHadiah 'Demam Waktu' Untukmu\n(Mendapatkan : Demam Waktu)"/>
+		<script index="PopAsk-msg7" msg="Mungkin, Sewaktu-waktu, Kamu bisa membantu pengembang lewat menyentuh spanduk\nKamu tahu itu?(Mendapatkan : [[0]] Bisa)"/>
+		<script index="PopAsk-msg8" msg="Jika kamu melarikan diri, Kamu dapat mendapatkan banyak kunci.\n(Mendapatkan : [[0]] Kunci)"/>
+		<script index="helpdesk" msg="Tolong beritahu kami keluhan anda\nKami harap kami dapat memperbaikinya"/>
+		<script index="ShareManager-msg" msg="►Saya baru saja memainkan game yang bernama #canyourpet dan YA AMPUN...GAME MENYAYAT HATI YANG PERNAH ADA!"/>
+		<script index="SlotShop-ball" msg="+[[0]] Bisa/Tekan"/>
+		<script index="SlotShop-sec" msg="+[[0]] Bisa/Kedua"/>
+		<script index="SlotShop-q" msg="+[[0]] Bisa/Merawat"/>
+		<script index="SlotShop-avg" msg="+[[0]] Rata"/>
+		<script index="RateManager-title" msg="Dapatkah Kamu Merawat!"/>
+		<script index="RateManager-description" msg="Maukah Anda berbicara sejenak untuk menilai game ini? Ini tidak akan mengambil waktu lebih dari satu menit. Terima kasih atas"/>
+		<script index="RateManager-rate" msg="Menilai 5 Bintang"/>
+		<script index="RateManager-later" msg="Tanyakan Saya Nanti"/>
+		<script index="RateManager-dont" msg="Jangan Bertanya Lagi"/>
+		<script index="PopPurchase-msg1" msg="Double Kaleng"/>
+		<script index="PopPurchase-msg2" msg="Double Pendapatan Tingkat"/>
+		<script index="PopPurchase-msg3" msg="Dapat [[0]] Langsung"/>
+		<script index="PopPurchase-msg4" msg="Membeli Bonus\nHapus Iklan"/>
+		<script index="txt-premium" msg="PREMIUM"/>
+		<script index="GameUI-ending-can" msg="Kamu Mendapatkan [[0]] Kaleng"/>
+		<script index="GameUI-ending2-key" msg="Kamu Mendapatkan [[0]] Kunci"/>
+		<script index="SlotKeyShop-agg" msg="Telur Premium"/>
+		<script index="SlotKeyShop-factory" msg="Peningkatan produksi\nSemua Peningkatan"/>
+		<script index="SlotKeyShop-sale" msg="pengurangan harga\nSemua Peningkatan"/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="Increase key acquisition permanently"/>
+		<script index="escape-reward" msg="Mendapatkan +[[0]] Kunci"/>
+		<script index="escape-title" msg="Melarikan Diri"/>
+		<script index="escape-title2" msg="Melarikan Diri!"/>
+		<script index="escape-new_ending" msg="Akhiran Baru"/>
+		<script index="notification-fever" msg="Demam Datang...!"/>
+		<script index="notification-d7" msg="Akankah Kamu Mengingat…ku"/>
+		<script index="notification-new" msg="Temukan akhiran baru!"/>
+		<script index="notification-nothing" msg="Pip! Pip! Anak Ayam!"/>
+		<script index="notification-saveRetention" msg="[Access Reward] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="Hai, Saya[[0]]\ndatang dari masa depan"/>
+	</local>
+	<local mode="gr">
+		<script index="GameLogic-pet_name1" msg="Stephano"/>
+		<script index="GameLogic-pet_name2" msg="Puffy"/>
+		<script index="GameLogic-pet_name3" msg="Kawaii"/>
+		<script index="GameLogic-pet_name4" msg="Alfredo"/>
+		<script index="GameLogic-pet_name5" msg="Felix"/>
+		<script index="GameLogic-pet_name6" msg="Alex"/>
+		<script index="GameLogic-pet_name7" msg="Grin"/>
+		<script index="GameLogic-pet_name8" msg="Tempura"/>
+		<script index="GameLogic-pet_name9" msg="Scout"/>
+		<script index="GameLogic-pet_name10" msg="Neo"/>
+		<script index="GameLogic-pet_name11" msg="Halo"/>
+		<script index="GameLogic-pet_name12" msg="Crystal"/>
+		<script index="GameLogic-pet_name13" msg="Rio"/>
+		<script index="GameLogic-pet_name14" msg="Pepe"/>
+		<script index="GameLogic-pet_name15" msg="Korri"/>
+		<script index="GameLogic-pet_name16" msg="Coco"/>
+		<script index="GameLogic-pet_name17" msg="Ema"/>
+		<script index="GameLogic-pet_name18" msg="Enola"/>
+		<script index="GameLogic-pet_name19" msg="Max"/>
+		<script index="GameLogic-pet_name20" msg="Buddy"/>
+		<script index="GameLogic-pet_name21" msg="Rocky"/>
+		<script index="GameLogic-pet_name22" msg="Cooper"/>
+		<script index="GameLogic-pet_name23" msg="Duke"/>
+		<script index="GameLogic-pet_name24" msg="Jack"/>
+		<script index="GameLogic-pet_name25" msg="Toby"/>
+		<script index="GameLogic-pet_name26" msg="Bella"/>
+		<script index="GameLogic-pet_name27" msg="Dalsy"/>
+		<script index="GameLogic-pet_name28" msg="Lucy"/>
+		<script index="GameLogic-pet_name29" msg="Molly"/>
+		<script index="GameLogic-pet_name30" msg="Lola"/>
+		<script index="GameLogic-pet_name31" msg="Sophie"/>
+		<script index="GameLogic-pet_name32" msg="Chloe"/>
+		<script index="GameLogic-pet_name33" msg="Nugget"/>
+		<script index="PopAsk-msg1" msg="Συλλέγεις περισσότερες κονσέρβες ;\nΣύλλεξε μέχρι και 999 κονσέρβες! (Ανταμοιβή : [[0]] Κονσέρβα)"/>
+		<script index="PopAsk-msg2" msg="Ευχαριστώ που παίξατε.\nΔιασκεδάζεις;\n(Ανταμοιβή : [[0]] Κονσέρβα)"/>
+		<script index="PopAsk-msg3" msg="Προσπάθησε να αγγίξεις τα κοτοπουλάκια που πέφτουν από τον ουρανό\nΑυτό είναι ένα δώρο για εσένα!\n (Ανταμοιβή : [[0]] Κοτοπουλάκια)"/>
+		<script index="PopAsk-msg4" msg="Μπορείς να προτείνεις το παιχνίδι σε έναν φίλο;\n(Ανταμοιβή : [[0]] Κοτοπουλάκια)"/>
+		<script index="PopAsk-msg5" msg="Λατρεύω το κοτόπουλο.\nΕσένα σου αρέσει το κοτόπουλο;\n(Ανταμοιβή : [[0]] Κονσέρβα)"/>
+		<script index="PopAsk-msg6" msg="Μπορώ να σε δω αύριο;\n'Ώρα πυρετού' δώρο για εσένα\n(Ανταμοιβή :Ώρα πυρετού)"/>
+		<script index="PopAsk-msg7" msg="Μερικές φορές, μπορείς να βοηθήσεις τον προγραμματιστή μέσω touch banner.\nΤο ήξερες αυτό;(Ανταμοιβή : [[0]] Κονσέρβα)"/>
+		<script index="PopAsk-msg8" msg="Εάν αποδράσεις, θα πάρεις πολλά κλειδιά\n(Ανταμοιβή : [[0]] Κλειδί)"/>
+		<script index="helpdesk" msg="Σας παρακαλώ πείτε μας τα παράπονά σας\nΕλπίζουμε να γίνουμε καλύτεροι"/>
+		<script index="ShareManager-msg" msg="►Μόλις έπαιξα ένα παιχνίδι που λέγεται #canyourpet και Ω ΘΕΕ ΜΟΥ... ΤΟ ΠΙΟ ΣΥΓΚΙΝΗΤΙΚΌ ΠΑΙΝΧΊΔΙ ΤΟΥ ΚΌΣΜΟΥ!"/>
+		<script index="SlotShop-ball" msg="+[[0]] Κονσέρβα/Κλίκ"/>
+		<script index="SlotShop-sec" msg="+[[0]] Κονσέρβα/Το δευτερόλεπτο"/>
+		<script index="SlotShop-q" msg="+[[0]] Κονσέρβα/Κατοικίδιο"/>
+		<script index="SlotShop-avg" msg="+[[0]] Μέσος"/>
+		<script index="RateManager-title" msg="Κονσερβοποίησε το κατοικίδιό σου!"/>
+		<script index="RateManager-description" msg="Θα σε πείραζε να έπαιρνες ένα δευτερόλεπτο για να βαθμολογήσεις το παιχνίδι; Δεν θα πάρει πολύ. Ευχαριστούμε για την υποστήριξη!"/>
+		<script index="RateManager-rate" msg="Βαθμολόγησε 5 αστέρια"/>
+		<script index="RateManager-later" msg="Ρώτα με αργότερα"/>
+		<script index="RateManager-dont" msg="Μην ρωτήσεις ξανά"/>
+		<script index="PopPurchase-msg1" msg="Διπλές κονσέρβες"/>
+		<script index="PopPurchase-msg2" msg="Διπλά κέρδη βαθμολόγησης"/>
+		<script index="PopPurchase-msg3" msg="Πάρε [[0]] κατευθείαν"/>
+		<script index="PopPurchase-msg4" msg="Αγόρασε Μπόνους\nΔιαγράφονται οι διαφημίσεις"/>
+		<script index="txt-premium" msg="ΜΟΝΑΔΙΚΌ"/>
+		<script index="GameUI-ending-can" msg="Έχεις κερδίσει [[0]] Κονσέρβες"/>
+		<script index="GameUI-ending2-key" msg="Έχεις κερδίσει [[0]] Κλειδιά"/>
+		<script index="SlotKeyShop-agg" msg="Μοναδικό αυγό"/>
+		<script index="SlotKeyShop-factory" msg="Αυξημένη παραγωγή\nΌλα αναβάθμιση"/>
+		<script index="SlotKeyShop-sale" msg="Μείωση τιμής\nΌλα αναβάθμιση"/>
+		<script index="SlotKeyShop-ball" msg="Super Ball"/>
+		<script index="SlotKeyShop-sec" msg="Super Auto"/>
+		<script index="SlotKeyShop-premium" msg="Super Premium"/>
+		<script index="SlotShopItem-key" msg="Increase key acquisition permanently"/>
+		<script index="escape-reward" msg="Ανταμοιβή +[[0]] κλειδί"/>
+		<script index="escape-title" msg="Melarikan Diri"/>
+		<script index="escape-title2" msg="Melarikan Diri!"/>
+		<script index="escape-new_ending" msg="Νέο τέλος"/>
+		<script index="notification-fever" msg="Πυρετός έρχεται...!"/>
+		<script index="notification-d7" msg="Θα... με θυμάσαι;"/>
+		<script index="notification-new" msg="Βρες ένα νέο τέλος!"/>
+		<script index="notification-nothing" msg="Μιπ! Μιπ! Μωρό κοτοπουλάκι!"/>
+		<script index="notification-saveRetention" msg="[Access Reward] 10 GEM!"/>
+		<script index="pop_shop_fx" msg="Γεια, είμαι ο/η [[0]]\nέρχομαι από το μέλλον"/>
+	</local>
+</data>

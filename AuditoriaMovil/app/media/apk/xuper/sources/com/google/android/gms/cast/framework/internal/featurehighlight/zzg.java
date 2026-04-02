@@ -1,0 +1,7 @@
+package com.google.android.gms.cast.framework.internal.featurehighlight;
+/* loaded from: classes.dex */
+public interface zzg {
+    void zza();
+
+    void zzb();
+}

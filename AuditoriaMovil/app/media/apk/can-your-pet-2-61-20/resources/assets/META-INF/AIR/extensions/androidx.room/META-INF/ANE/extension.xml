@@ -1,0 +1,41 @@
+<extension xmlns="http://ns.adobe.com/air/extension/33.1">
+	<id>androidx.room</id>
+	<versionNumber>2.5.104</versionNumber>
+	<platforms>
+
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>androidx.room.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.androidx.room.RoomExtension</initializer>
+				<finalizer>com.distriqt.extension.androidx.room.RoomExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM64">
+			<applicationDeployment>
+				<nativeLibrary>androidx.room.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.androidx.room.RoomExtension</initializer>
+				<finalizer>com.distriqt.extension.androidx.room.RoomExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>androidx.room.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.androidx.room.RoomExtension</initializer>
+				<finalizer>com.distriqt.extension.androidx.room.RoomExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x64">
+			<applicationDeployment>
+				<nativeLibrary>androidx.room.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.androidx.room.RoomExtension</initializer>
+				<finalizer>com.distriqt.extension.androidx.room.RoomExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+		
+	</platforms>
+</extension>
+

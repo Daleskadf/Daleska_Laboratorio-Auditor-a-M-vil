@@ -1,0 +1,35 @@
+package com.bumptech.glide;
+
+import com.bumptech.glide.request.transition.TransitionFactory;
+import com.bumptech.glide.request.transition.ViewPropertyTransition;
+/* loaded from: classes.dex */
+public final class GenericTransitionOptions<TranscodeType> extends TransitionOptions<GenericTransitionOptions<TranscodeType>, TranscodeType> {
+    public static <TranscodeType> GenericTransitionOptions<TranscodeType> with(int i10) {
+        return new GenericTransitionOptions().transition(i10);
+    }
+
+    public static <TranscodeType> GenericTransitionOptions<TranscodeType> withNoTransition() {
+        return new GenericTransitionOptions().dontTransition();
+    }
+
+    @Override // com.bumptech.glide.TransitionOptions
+    public boolean equals(Object obj) {
+        if ((obj instanceof GenericTransitionOptions) && super.equals(obj)) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override // com.bumptech.glide.TransitionOptions
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    public static <TranscodeType> GenericTransitionOptions<TranscodeType> with(ViewPropertyTransition.Animator animator) {
+        return new GenericTransitionOptions().transition(animator);
+    }
+
+    public static <TranscodeType> GenericTransitionOptions<TranscodeType> with(TransitionFactory<? super TranscodeType> transitionFactory) {
+        return new GenericTransitionOptions().transition(transitionFactory);
+    }
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_app_id" translatable="false">1:848128751531:android:0d5b4327acf68e080e44ee</string>
+    <string name="gcm_defaultSenderId" translatable="false">848128751531</string>
+    <string name="default_web_client_id" translatable="false"/>
+    <string name="ga_trackingId" translatable="false"/>
+    <string name="firebase_database_url" translatable="false"/>
+    <string name="google_api_key" translatable="false">AIzaSyDvMJGjj29HeIF1aYMPbY7ziYWEn9deWn8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDvMJGjj29HeIF1aYMPbY7ziYWEn9deWn8</string>
+    <string name="google_storage_bucket" translatable="false">can-your-pet2.appspot.com</string>
+    <string name="project_id" translatable="false">can-your-pet2</string>
+</resources>
+

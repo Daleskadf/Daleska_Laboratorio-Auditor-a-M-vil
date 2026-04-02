@@ -1,0 +1,41 @@
+<extension xmlns="http://ns.adobe.com/air/extension/33.1">
+	<id>com.distriqt.playservices.AdsIdentifier</id>
+	<versionNumber>18.0.105</versionNumber>
+	<platforms>
+
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>com.distriqt.playservices.adsidentifier.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.adsidentifier.AdsIdentifierExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.adsidentifier.AdsIdentifierExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-ARM64">
+			<applicationDeployment>
+				<nativeLibrary>com.distriqt.playservices.adsidentifier.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.adsidentifier.AdsIdentifierExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.adsidentifier.AdsIdentifierExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>com.distriqt.playservices.adsidentifier.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.adsidentifier.AdsIdentifierExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.adsidentifier.AdsIdentifierExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		<platform name="Android-x64">
+			<applicationDeployment>
+				<nativeLibrary>com.distriqt.playservices.adsidentifier.android.jar</nativeLibrary>
+				<initializer>com.distriqt.extension.playservices.adsidentifier.AdsIdentifierExtension</initializer>
+				<finalizer>com.distriqt.extension.playservices.adsidentifier.AdsIdentifierExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="default"> 
+			<applicationDeployment /> 
+		</platform>
+		
+	</platforms>
+</extension>
+
